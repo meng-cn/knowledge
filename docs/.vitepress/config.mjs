@@ -60,7 +60,7 @@ export default defineConfig({
   description: "VitePress 文档站",
 
   // 👇 这一行是重点！自动适配本地 / 线上
-  base: process.env.GITHUB_ACTION ? '/knowledge/' : '/',
+  base: process.env.GITHUB_ACTION ? '/' : '/',
 
   themeConfig: {
     // Generate sidebar dynamically
