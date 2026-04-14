@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as l,ae as t}from"./chunks/framework.DYQ7e_kq.js";const p=JSON.parse('{"title":"我的文档网站","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"};function o(n,e,s,d,_,c){return r(),l("div",null,[...e[0]||(e[0]=[t("",4)])])}const u=a(i,[["render",o]]);export{p as __pageData,u as default};
