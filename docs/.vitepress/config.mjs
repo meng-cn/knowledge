@@ -9,6 +9,7 @@ import path from 'path'
  */
 function getSidebarItems(dir, baseLink) {
   const items = []
+  // Use path.join for file system operations
   const fullPath = path.join(process.cwd(), 'docs', dir)
 
   if (!fs.existsSync(fullPath)) {
@@ -25,7 +26,11 @@ function getSidebarItems(dir, baseLink) {
       // Skip hidden directories or node_modules
       if (file.startsWith('.') || file === 'node_modules') return
 
-      const subItems = getSidebarItems(path.join(dir, file), `${baseLink}${file}/`)
+      // Ensure path separators are forward slashes for URL consistency
+      const nextDir = path.posix.join(dir, file)
+      const nextBaseLink = `${baseLink}${file}/`
+      
+      const subItems = getSidebarItems(nextDir, nextBaseLink)
       if (subItems.length > 0) {
         items.push({
           text: file.charAt(0).toUpperCase() + file.slice(1), // Capitalize folder name
@@ -38,9 +43,12 @@ function getSidebarItems(dir, baseLink) {
       if (file === 'index.md') return
 
       const fileName = file.replace('.md', '')
+      // Ensure link uses forward slashes
+      const link = `${baseLink}${fileName}`.replace(/\\/g, '/')
+      
       items.push({
         text: fileName.charAt(0).toUpperCase() + fileName.slice(1).replace(/-/g, ' '), // Format file name
-        link: `${baseLink}${fileName}`
+        link: link
       })
     }
   })
@@ -61,6 +69,10 @@ export default defineConfig({
 
   // 👇 这一行是重点！自动适配本地 / 线上
   base: process.env.GITHUB_ACTION ? '/' : '/',
+
+  markdown: {
+    html: false,  // 禁用 HTML 解析
+  },
 
   themeConfig: {
     // Generate sidebar dynamically
