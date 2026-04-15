@@ -763,3 +763,4 @@ class UserViewModel(
 - [OkHttp 官方文档](https://square.github.io/okhttp/)
 - [网络优化最佳实践](https://developer.android.com/training/basics/network-ops)
 
+**🔗 下一篇**: [图片加载框架](08_图片加载_Glide.md)

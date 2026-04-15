@@ -1049,3 +1049,4 @@ fun `loadUser returns success state`() = runTest {
 - [Hilt 官方文档](https://developer.android.com/training/dependency-injection/hilt-android)
 - [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
+**🔗 下一篇**: [性能优化](../10_Performance/01_性能优化总览.md)
