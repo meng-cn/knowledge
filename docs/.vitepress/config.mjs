@@ -76,7 +76,14 @@ export default defineConfig({
         // 👇 把你自己的 AdSense 脚本贴这里！
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4901937160278502"
       }
-    ]
+    ],
+    [
+    'meta',
+    {
+      name: 'google-adsense-account',
+      content: 'ca-pub-4901937160278502'
+    }
+  ]
   ],
 
   // 👇 这一行是重点！自动适配本地 / 线上
