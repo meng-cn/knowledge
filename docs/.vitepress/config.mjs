@@ -29,7 +29,7 @@ function getSidebarItems(dir, baseLink) {
       // Ensure path separators are forward slashes for URL consistency
       const nextDir = path.posix.join(dir, file)
       const nextBaseLink = `${baseLink}${file}/`
-      
+
       const subItems = getSidebarItems(nextDir, nextBaseLink)
       if (subItems.length > 0) {
         items.push({
@@ -45,7 +45,7 @@ function getSidebarItems(dir, baseLink) {
       const fileName = file.replace('.md', '')
       // Ensure link uses forward slashes
       const link = `${baseLink}${fileName}`.replace(/\\/g, '/')
-      
+
       items.push({
         text: fileName.charAt(0).toUpperCase() + fileName.slice(1).replace(/-/g, ' '), // Format file name
         link: link
@@ -66,6 +66,18 @@ function getSidebarItems(dir, baseLink) {
 export default defineConfig({
   title: "我的知识库",
   description: "VitePress 文档站",
+
+  head: [
+    [
+      'script',
+      {
+        async: 'true',
+        crossorigin: 'anonymous',
+        // 👇 把你自己的 AdSense 脚本贴这里！
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4901937160278502"
+      }
+    ]
+  ],
 
   // 👇 这一行是重点！自动适配本地 / 线上
   base: process.env.GITHUB_ACTION ? '/' : '/',
