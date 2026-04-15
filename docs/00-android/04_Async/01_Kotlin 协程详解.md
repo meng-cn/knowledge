@@ -796,5 +796,3 @@ class UserViewModel(
 - [Kotlin Coroutines Guide](https://kotlinlang.org/docs/coroutines-guide.html)
 - [Kotlin Flow 官方文档](https://kotlinlang.org/docs/flow.html)
 - [Android 协程最佳实践](https://developer.android.com/kotlin/coroutines)
-
-**🔗 下一篇**: [Handler 机制](02_Handler_机制.md)

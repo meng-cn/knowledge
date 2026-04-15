@@ -542,5 +542,3 @@ override fun onBackPressed() {
 - [Android Developers - Activity](https://developer.android.com/guide/components/activities)
 - [Activity 生命周期源码分析](https://juejin.cn/post/xxxx)
 - [Android 性能优化实战](https://github.com/xxx)
-
-**🔗 下一篇**: [Service 服务深度解析](03_Service_服务.md)
