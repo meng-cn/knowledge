@@ -34,7 +34,7 @@ function getSidebarItems(dir, baseLink) {
       if (subItems.length > 0) {
         items.push({
           text: file.charAt(0).toUpperCase() + file.slice(1), // Capitalize folder name
-          collapsed: false, // Set to true if you want folders collapsed by default
+          collapsed: true, // Set to true if you want folders collapsed by default
           items: subItems
         })
       }
