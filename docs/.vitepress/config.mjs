@@ -87,7 +87,7 @@ export default defineConfig({
   ],
 
   // 👇 这一行是重点！自动适配本地 / 线上
-  base: process.env.GITHUB_ACTION ? '/knowledge/' : '/',
+  base: process.env.GITHUB_ACTION ? '/' : '/',
 
   markdown: {
     html: false,  // 禁用 HTML 解析
