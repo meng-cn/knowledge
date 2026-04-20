@@ -11,46 +11,46 @@
 ## 📁 目录结构
 
 ```
-01-基础篇/                       ← Part I · 4 章
-├── ch01-introduction.md         第一章  简介与安装
-├── ch02-core-structures.md      第二章  核心数据结构
-├── ch03-pixel-operations.md     第三章  像素级图像操作
-└── ch04-geometric-transforms.md 第四章  几何变换
-02-图像处理/                     ← Part II · 5 章
-├── ch05-filtering.md            第五章  图像滤波
-├── ch06-morphology.md           第六章  形态学操作
-├── ch07-histograms.md           第七章  直方图与图像增强
-├── ch08-thresholding.md         第八章  图像阈值与分割
-└── ch09-convolution-frequency.md 第九章  卷积与频域处理
-03-特征与匹配/                   ← Part III · 4 章
-├── ch10-edge-corner-detection.md 第十章 边缘与角点检测
-├── ch11-feature-detection.md    第十一章 特征检测与描述
-├── ch12-feature-matching.md     第十二章 特征匹配与 RANSAC
-└── ch13-template-matching.md    第十三章 模板匹配
-04-目标检测与跟踪/               ← Part IV · 4 章
-├── ch14-haar-hog.md             第十四章 Haar 级联与 HOG+SVM
-├── ch15-dnn-detection.md        第十五章 DNN 目标检测
-├── ch16-optical-flow.md         第十六章 光流与运动分析
-└── ch17-object-tracking.md      第十七章 目标跟踪
-05-相机与三维/                   ← Part V · 3 章
-├── ch18-camera-calibration.md   第十八章 相机标定与校正
-├── ch19-stereo-vision.md        第十九章 立体视觉与深度估计
-└── ch20-pnp-pose-estimation.md  第二十章 PnP 与位姿估计
-06-机器学习/                     ← Part VI · 3 章
-├── ch21-knn-svm-dt.md           第二十一章 KNN / SVM / 决策树
-├── ch22-kmeans-quantization.md  第二十二章 K-Means / 图像量化
-└── ch23-hog-pedestrian.md       第二十三章 HOG / 行人检测
-07-高级与实战/                   ← Part VII · 5 章
-├── ch24-dnn-deep.md             第二十四章 DNN 模块深入
-├── ch25-video-processing.md     第二十五章 视频处理
-├── ch26-gui-interaction.md      第二十六章 GUI 与交互
-├── ch27-cuda-acceleration.md    第二十七章 CUDA 加速
-└── ch28-cases.md                第二十八章 实战案例集
-08-附录/                         ← Part VIII · 4 章
-├── appendix-api-reference.md    API 速查表
-├── appendix-coordinates-formulas.md 坐标系与变换公式
-├── appendix-faq.md              常见问题 FAQ
-└── appendix-resources.md        资源与延伸阅读
+01-基础篇/                      
+├── ch01-introduction.md         # 第一章  简介与安装
+├── ch02-core-structures.md      # 第二章  核心数据结构
+├── ch03-pixel-operations.md     # 第三章  像素级图像操作
+└── ch04-geometric-transforms.md # 第四章  几何变换
+02-图像处理/           
+├── ch05-filtering.md            # 第五章  图像滤波
+├── ch06-morphology.md           # 第六章  形态学操作
+├── ch07-histograms.md           # 第七章  直方图与图像增强
+├── ch08-thresholding.md         # 第八章  图像阈值与分割
+└── ch09-convolution-frequency.md # 第九章  卷积与频域处理
+03-特征与匹配/            
+├── ch10-edge-corner-detection.md # 第十章 边缘与角点检测
+├── ch11-feature-detection.md    # 第十一章 特征检测与描述
+├── ch12-feature-matching.md     # 第十二章 特征匹配与 RANSAC
+└── ch13-template-matching.md    # 第十三章 模板匹配
+04-目标检测与跟踪/      
+├── ch14-haar-hog.md             # 第十四章 Haar 级联与 HOG+SVM
+├── ch15-dnn-detection.md        # 第十五章 DNN 目标检测
+├── ch16-optical-flow.md         # 第十六章 光流与运动分析
+└── ch17-object-tracking.md      # 第十七章 目标跟踪
+05-相机与三维/         
+├── ch18-camera-calibration.md   # 第十八章 相机标定与校正
+├── ch19-stereo-vision.md        # 第十九章 立体视觉与深度估计
+└── ch20-pnp-pose-estimation.md  # 第二十章 PnP 与位姿估计
+06-机器学习/           
+├── ch21-knn-svm-dt.md           # 第二十一章 KNN / SVM / 决策树
+├── ch22-kmeans-quantization.md  # 第二十二章 K-Means / 图像量化
+└── ch23-hog-pedestrian.md       # 第二十三章 HOG / 行人检测
+07-高级与实战/              
+├── ch24-dnn-deep.md             # 第二十四章 DNN 模块深入
+├── ch25-video-processing.md     # 第二十五章 视频处理
+├── ch26-gui-interaction.md      # 第二十六章 GUI 与交互
+├── ch27-cuda-acceleration.md    # 第二十七章 CUDA 加速
+└── ch28-cases.md                # 第二十八章 实战案例集
+08-附录/                   
+├── appendix-api-reference.md    # API 速查表
+├── appendix-coordinates-formulas.md # 坐标系与变换公式
+├── appendix-faq.md              # 常见问题 FAQ
+└── appendix-resources.md        # 资源与延伸阅读
 ```
 
 ---

@@ -10,44 +10,44 @@
 ## 📁 目录结构
 
 ```
-01-Vulkan 核心概念/              ← Part I · 6 章
-├── ch01-architecture.md         第一章  架构与核心概念
-├── ch02-initialization.md       第二章  初始化与生命周期
-├── ch03-swap-chain.md           第三章  交换链
-├── ch04-render-pipeline.md      第四章  渲染管线
-├── ch05-resources.md            第五章  资源管理 (Buffers & Images)
-└── ch06-commands-sync.md        第六章  命令缓冲与同步
-02-中级 Vulkan/                  ← Part II · 9 章
-├── ch07-descriptors.md          第七章  描述符
-├── ch08-depth-template.md       第八章  深度测试与模板测试
-├── ch09-samplers-textures.md    第九章  采样器与纹理过滤
-├── ch10-draw-calls.md           第十章  顶点与索引绘制
-├── ch11-vertex-shader.md        第十一章 顶点着色器 (GLSL)
-├── ch12-fragment-shader.md      第十二章 片元着色器 (GLSL)
-├── ch13-pipeline-state.md       第十三章 管线状态管理
-├── ch14-framebuffer.md          第十四章 帧缓冲
-└── ch15-multisampling.md        第十五章 多重采样 (MSAA)
-03-高级 Vulkan/                  ← Part III · 9 章
-├── ch16-render-targets.md       第十六章 渲染目标与后处理
-├── ch17-instancing.md           第十七章 实例化渲染
-├── ch19-dynamic-state.md        第十八章 动态状态
-├── ch20-render-splitting.md     第十九章 渲染分割
-├── ch21-shadow-mapping.md       第二十章 阴影映射
-├── ch22-lighting.md             第二十二章 光照模型 (Phong / PBR)
-├── ch23-skybox.md               第二十三章 天空盒
-├── ch24-lighting.md             第二十四章 光照计算 (Phong)
-└── ch25-image-formats.md        第二十五章 图像格式与子资源
-04-Vulkan 实战/                  ← Part IV · 5 章
-├── ch26-memory-advanced.md      第二十六章 内存管理进阶
-├── ch27-events-markers.md       第二十七章 事件与标记
-├── ch28-render-graph.md         第二十八章 渲染图
-├── ch29-async-compute.md        第二十九章 异步计算
-└── ch30-compute-shader.md       第三十章 计算着色器
-05-附录/                         ← Part V · 4 章
-├── appendix-api.md              API 速查表
-├── appendix-enums.md            枚举值对照
-├── appendix-install.md           Vulkan SDK 安装
-└── appendix-resources.md         资源与延伸阅读
+01-Vulkan 核心概念/   
+├── ch01-architecture.md         # 第一章  架构与核心概念
+├── ch02-initialization.md       # 第二章  初始化与生命周期
+├── ch03-swap-chain.md           # 第三章  交换链
+├── ch04-render-pipeline.md      # 第四章  渲染管线
+├── ch05-resources.md            # 第五章  资源管理 (Buffers & Images)
+└── ch06-commands-sync.md        # 第六章  命令缓冲与同步
+02-中级 Vulkan/         
+├── ch07-descriptors.md          # 第七章  描述符
+├── ch08-depth-template.md       # 第八章  深度测试与模板测试
+├── ch09-samplers-textures.md    # 第九章  采样器与纹理过滤
+├── ch10-draw-calls.md           # 第十章  顶点与索引绘制
+├── ch11-vertex-shader.md        # 第十一章 顶点着色器 (GLSL)
+├── ch12-fragment-shader.md      # 第十二章 片元着色器 (GLSL)
+├── ch13-pipeline-state.md       # 第十三章 管线状态管理
+├── ch14-framebuffer.md          # 第十四章 帧缓冲
+└── ch15-multisampling.md        # 第十五章 多重采样 (MSAA)
+03-高级 Vulkan/         
+├── ch16-render-targets.md       # 第十六章 渲染目标与后处理
+├── ch17-instancing.md           # 第十七章 实例化渲染
+├── ch19-dynamic-state.md        # 第十八章 动态状态
+├── ch20-render-splitting.md     # 第十九章 渲染分割
+├── ch21-shadow-mapping.md       # 第二十章 阴影映射
+├── ch22-lighting.md             # 第二十二章 光照模型 (Phong / PBR)
+├── ch23-skybox.md               # 第二十三章 天空盒
+├── ch24-lighting.md             # 第二十四章 光照计算 (Phong)
+└── ch25-image-formats.md        # 第二十五章 图像格式与子资源
+04-Vulkan 实战/        
+├── ch26-memory-advanced.md      # 第二十六章 内存管理进阶
+├── ch27-events-markers.md       # 第二十七章 事件与标记
+├── ch28-render-graph.md         # 第二十八章 渲染图
+├── ch29-async-compute.md        # 第二十九章 异步计算
+└── ch30-compute-shader.md       # 第三十章 计算着色器
+05-附录/               
+├── appendix-api.md              # API 速查表
+├── appendix-enums.md            # 枚举值对照
+├── appendix-install.md          #  Vulkan SDK 安装
+└── appendix-resources.md        #  资源与延伸阅读
 ```
 
 ---
