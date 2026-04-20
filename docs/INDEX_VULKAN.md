@@ -58,61 +58,61 @@
 
 | # | 章节 | 说明 |
 |--|--|--|
-| 1 | [ch01-architecture.md](./01-Vulkan 核心概念/ch01-architecture.md) | 架构与核心概念 |
-| 2 | [ch02-initialization.md](./01-Vulkan 核心概念/ch02-initialization.md) | 初始化与生命周期 |
-| 3 | [ch03-swap-chain.md](./01-Vulkan 核心概念/ch03-swap-chain.md) | 交换链 |
-| 4 | [ch04-render-pipeline.md](./01-Vulkan 核心概念/ch04-render-pipeline.md) | 渲染管线 |
-| 5 | [ch05-resources.md](./01-Vulkan 核心概念/ch05-resources.md) | 资源管理 (Buffers & Images) |
-| 6 | [ch06-commands-sync.md](./01-Vulkan 核心概念/ch06-commands-sync.md) | 命令缓冲与同步 |
+| 1 | [ch01-architecture.md](./03-vulkan/01-Vulkan 核心概念/ch01-architecture.md) | 架构与核心概念 |
+| 2 | [ch02-initialization.md](./03-vulkan/01-Vulkan 核心概念/ch02-initialization.md) | 初始化与生命周期 |
+| 3 | [ch03-swap-chain.md](./03-vulkan/01-Vulkan 核心概念/ch03-swap-chain.md) | 交换链 |
+| 4 | [ch04-render-pipeline.md](./03-vulkan/01-Vulkan 核心概念/ch04-render-pipeline.md) | 渲染管线 |
+| 5 | [ch05-resources.md](./03-vulkan/01-Vulkan 核心概念/ch05-resources.md) | 资源管理 (Buffers & Images) |
+| 6 | [ch06-commands-sync.md](./03-vulkan/01-Vulkan 核心概念/ch06-commands-sync.md) | 命令缓冲与同步 |
 
 ### Part II · 中级 Vulkan
 
 | # | 章节 | 说明 |
 |--|--|--|
-| 1 | [ch07-descriptors.md](./02-中级 Vulkan/ch07-descriptors.md) | 描述符 |
-| 2 | [ch08-depth-template.md](./02-中级 Vulkan/ch08-depth-template.md) | 深度测试与模板测试 |
-| 3 | [ch09-samplers-textures.md](./02-中级 Vulkan/ch09-samplers-textures.md) | 采样器与纹理过滤 |
-| 4 | [ch10-draw-calls.md](./02-中级 Vulkan/ch10-draw-calls.md) | 顶点与索引绘制 |
-| 5 | [ch11-vertex-shader.md](./02-中级 Vulkan/ch11-vertex-shader.md) | 顶点着色器 (GLSL) |
-| 6 | [ch12-fragment-shader.md](./02-中级 Vulkan/ch12-fragment-shader.md) | 片元着色器 (GLSL) |
-| 7 | [ch13-pipeline-state.md](./02-中级 Vulkan/ch13-pipeline-state.md) | 管线状态管理 |
-| 8 | [ch14-framebuffer.md](./02-中级 Vulkan/ch14-framebuffer.md) | 帧缓冲 |
-| 9 | [ch15-multisampling.md](./02-中级 Vulkan/ch15-multisampling.md) | 多重采样 (MSAA) |
+| 1 | [ch07-descriptors.md](./03-vulkan/02-中级 Vulkan/ch07-descriptors.md) | 描述符 |
+| 2 | [ch08-depth-template.md](./03-vulkan/02-中级 Vulkan/ch08-depth-template.md) | 深度测试与模板测试 |
+| 3 | [ch09-samplers-textures.md](./03-vulkan/02-中级 Vulkan/ch09-samplers-textures.md) | 采样器与纹理过滤 |
+| 4 | [ch10-draw-calls.md](./03-vulkan/02-中级 Vulkan/ch10-draw-calls.md) | 顶点与索引绘制 |
+| 5 | [ch11-vertex-shader.md](./03-vulkan/02-中级 Vulkan/ch11-vertex-shader.md) | 顶点着色器 (GLSL) |
+| 6 | [ch12-fragment-shader.md](./03-vulkan/02-中级 Vulkan/ch12-fragment-shader.md) | 片元着色器 (GLSL) |
+| 7 | [ch13-pipeline-state.md](./03-vulkan/02-中级 Vulkan/ch13-pipeline-state.md) | 管线状态管理 |
+| 8 | [ch14-framebuffer.md](./03-vulkan/02-中级 Vulkan/ch14-framebuffer.md) | 帧缓冲 |
+| 9 | [ch15-multisampling.md](./03-vulkan/02-中级 Vulkan/ch15-multisampling.md) | 多重采样 (MSAA) |
 
 ### Part III · 高级 Vulkan
 
 | # | 章节 | 说明 |
 |--|--|--|
-| 1 | [ch16-render-targets.md](./03-高级 Vulkan/ch16-render-targets.md) | 渲染目标与后处理 |
-| 2 | [ch17-instancing.md](./03-高级 Vulkan/ch17-instancing.md) | 实例化渲染 |
-| 3 | [ch19-dynamic-state.md](./03-高级 Vulkan/ch19-dynamic-state.md) | 动态状态 |
-| 4 | [ch20-render-splitting.md](./03-高级 Vulkan/ch20-render-splitting.md) | 渲染分割 |
-| 5 | [ch21-shadow-mapping.md](./03-高级 Vulkan/ch21-shadow-mapping.md) | 阴影映射 |
-| 6 | [ch22-lighting.md](./03-高级 Vulkan/ch22-lighting.md) | 光照模型 (Phong / PBR) |
-| 7 | [ch23-skybox.md](./03-高级 Vulkan/ch23-skybox.md) | 天空盒 |
-| 8 | [ch24-lighting.md](./03-高级 Vulkan/ch24-lighting.md) | 光照计算 (Phong) |
-| 9 | [ch25-image-formats.md](./03-高级 Vulkan/ch25-image-formats.md) | 图像格式与子资源 |
+| 1 | [ch16-render-targets.md](./03-vulkan/03-高级 Vulkan/ch16-render-targets.md) | 渲染目标与后处理 |
+| 2 | [ch17-instancing.md](./03-vulkan/03-高级 Vulkan/ch17-instancing.md) | 实例化渲染 |
+| 3 | [ch19-dynamic-state.md](./03-vulkan/03-高级 Vulkan/ch19-dynamic-state.md) | 动态状态 |
+| 4 | [ch20-render-splitting.md](./03-vulkan/03-高级 Vulkan/ch20-render-splitting.md) | 渲染分割 |
+| 5 | [ch21-shadow-mapping.md](./03-vulkan/03-高级 Vulkan/ch21-shadow-mapping.md) | 阴影映射 |
+| 6 | [ch22-lighting.md](./03-vulkan/03-高级 Vulkan/ch22-lighting.md) | 光照模型 (Phong / PBR) |
+| 7 | [ch23-skybox.md](./03-vulkan/03-高级 Vulkan/ch23-skybox.md) | 天空盒 |
+| 8 | [ch24-lighting.md](./03-vulkan/03-高级 Vulkan/ch24-lighting.md) | 光照计算 (Phong) |
+| 9 | [ch25-image-formats.md](./03-vulkan/03-高级 Vulkan/ch25-image-formats.md) | 图像格式与子资源 |
 
 ### Part IV · Vulkan 实战
 
 | # | 章节 | 说明 |
 |--|--|--|
-| 1 | [ch26-memory-advanced.md](./04-Vulkan 实战/ch26-memory-advanced.md) | 内存管理进阶 |
-| 2 | [ch27-events-markers.md](./04-Vulkan 实战/ch27-events-markers.md) | 事件与标记 |
-| 3 | [ch28-render-graph.md](./04-Vulkan 实战/ch28-render-graph.md) | 渲染图 |
-| 4 | [ch29-async-compute.md](./04-Vulkan 实战/ch29-async-compute.md) | 异步计算 |
-| 5 | [ch30-compute-shader.md](./04-Vulkan 实战/ch30-compute-shader.md) | 计算着色器 |
+| 1 | [ch26-memory-advanced.md](./03-vulkan/04-Vulkan 实战/ch26-memory-advanced.md) | 内存管理进阶 |
+| 2 | [ch27-events-markers.md](./03-vulkan/04-Vulkan 实战/ch27-events-markers.md) | 事件与标记 |
+| 3 | [ch28-render-graph.md](./03-vulkan/04-Vulkan 实战/ch28-render-graph.md) | 渲染图 |
+| 4 | [ch29-async-compute.md](./03-vulkan/04-Vulkan 实战/ch29-async-compute.md) | 异步计算 |
+| 5 | [ch30-compute-shader.md](./03-vulkan/04-Vulkan 实战/ch30-compute-shader.md) | 计算着色器 |
 
-> 💡 注：ch24 为第二章光照计算补充，详见 [ch24-lighting.md](./03-高级 Vulkan/ch24-lighting.md)。
+> 💡 注：ch24 为第二章光照计算补充，详见 [ch24-lighting.md](./03-vulkan/03-高级 Vulkan/ch24-lighting.md)。
 
 ### Part V · 附录
 
 | # | 文件 | 说明 |
 |--|--|--|
-| 1 | [appendix-api.md](./05-附录/appendix-api.md) | API 速查表 |
-| 2 | [appendix-enums.md](./05-附录/appendix-enums.md) | 枚举值对照 |
-| 3 | [appendix-install.md](./05-附录/appendix-install.md) | Vulkan SDK 安装 |
-| 4 | [appendix-resources.md](./05-附录/appendix-resources.md) | 资源与延伸阅读 |
+| 1 | [appendix-api.md](./03-vulkan/05-附录/appendix-api.md) | API 速查表 |
+| 2 | [appendix-enums.md](./03-vulkan/05-附录/appendix-enums.md) | 枚举值对照 |
+| 3 | [appendix-install.md](./03-vulkan/05-附录/appendix-install.md) | Vulkan SDK 安装 |
+| 4 | [appendix-resources.md](./03-vulkan/05-附录/appendix-resources.md) | 资源与延伸阅读 |
 
 ---
 
@@ -158,12 +158,12 @@
 | ch15 | MSAA 多重采样、Resolve Attachment |
 | ch16 | 渲染目标纹理、后处理流程、Render Pass 链 |
 | ch17 | 实例化渲染(Instanced DrawCall) |
-| ch19 (十八) | [03-高级 Vulkan/ch19-dynamic-state.md](./03-高级 Vulkan/ch19-dynamic-state.md) | 动态状态(Viewport/Scissor/LineWidth...) |
-| ch20 (十九) | [03-高级 Vulkan/ch20-render-splitting.md](./03-高级 Vulkan/ch20-render-splitting.md) | 前向渲染 / 延迟渲染 / Clustered 渲染对比 |
-| ch21 (二十) | [03-高级 Vulkan/ch21-shadow-mapping.md](./03-高级 Vulkan/ch21-shadow-mapping.md) | Shadow Camera 设置、Shadow Map 生成与采样 |
-| ch22 (二十二) | [03-高级 Vulkan/ch22-lighting.md](./03-高级 Vulkan/ch22-lighting.md) | Phong / PBR 光照模型、多光源处理 |
-| ch23 | [03-高级 Vulkan/ch23-skybox.md](./03-高级 Vulkan/ch23-skybox.md) | 立方体贴图创建、Skybox 渲染 |
-| ch25 | [03-高级 Vulkan/ch25-image-formats.md](./03-高级 Vulkan/ch25-image-formats.md) | 图像格式速查表(颜色/深度/压缩格式) |
+| ch19 (十八) | [03-高级 Vulkan/ch19-dynamic-state.md](./03-vulkan/03-高级 Vulkan/ch19-dynamic-state.md) | 动态状态(Viewport/Scissor/LineWidth...) |
+| ch20 (十九) | [03-高级 Vulkan/ch20-render-splitting.md](./03-vulkan/03-高级 Vulkan/ch20-render-splitting.md) | 前向渲染 / 延迟渲染 / Clustered 渲染对比 |
+| ch21 (二十) | [03-高级 Vulkan/ch21-shadow-mapping.md](./03-vulkan/03-高级 Vulkan/ch21-shadow-mapping.md) | Shadow Camera 设置、Shadow Map 生成与采样 |
+| ch22 (二十二) | [03-高级 Vulkan/ch22-lighting.md](./03-vulkan/03-高级 Vulkan/ch22-lighting.md) | Phong / PBR 光照模型、多光源处理 |
+| ch23 | [03-高级 Vulkan/ch23-skybox.md](./03-vulkan/03-高级 Vulkan/ch23-skybox.md) | 立方体贴图创建、Skybox 渲染 |
+| ch25 | [03-高级 Vulkan/ch25-image-formats.md](./03-vulkan/03-高级 Vulkan/ch25-image-formats.md) | 图像格式速查表(颜色/深度/压缩格式) |
 | ch26 | 内存堆/类型查询、内存分配策略详解 |
 | ch27 | GPU 事件同步、调试标记 |
 | ch28 | Render Graph 架构、资源生命周期管理 |
@@ -195,7 +195,7 @@
 
 ## 🔗 相关资源
 
-详见 [附录 D](./appendix-resources.md):
+详见 [附录 D](./03-vulkan/05-附录/appendix-resources.md):
 
 - **官方规范**: <https://www.khronos.org/vulkan/>
 - **Vulkan Samples**: <https://github.com/KhronosGroup/Vulkan-Samples>
