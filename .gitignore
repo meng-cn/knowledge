@@ -4,3 +4,4 @@ temp
 .DS_Store
 docs/.vitepress/cache
 docs/.vitepress/dist
+test.py

@@ -15,10 +15,10 @@
 01_Foundation/
 ├── 01_四大组件.md                    # Activity/Service/BroadcastReceiver/ContentProvider
 ├── 02_Activity_生命周期.md           # Activity 生命周期详解
-├── 03_Service_服务.md               # Service 启动方式、前台服务
-├── 04_BroadcastReceiver_广播.md     # 静态/动态注册、有序/无序
-├── 05_ContentProvider_内容提供者.md # 数据共享、UriMatcher
-├── 06_Intent_与_IntentFilter.md     # 显式/隐式 Intent、PendingIntent
+├── 03_Service 服务.md               # Service 启动方式、前台服务
+├── 04_BroadcastReceiver 广播.md     # 静态/动态注册、有序/无序
+├── 05_ContentProvider 内容提供者.md # 数据共享、UriMatcher
+├── 06_Intent 与 IntentFilter.md     # 显式/隐式 Intent、PendingIntent
 ├── 07_启动模式与任务栈.md           # Standard/SingleTop/SingleTask/SingleInstance
 ├── 08_组件间通信.md                 # Binder/Messenger/AIDL/事件总线
 └── 09_Fragment_详解.md              # Fragment 生命周期/事务/通信（四大组件之一）
@@ -32,8 +32,8 @@
 ├── 02_View_绘制流程.md              # Measure/Layout/Draw
 ├── 03_事件分发机制.md               # dispatchTouchEvent/onInterceptTouchEvent
 ├── 04_自定义 View.md                # 自定义 View/ViewGroup 完整流程
-├── 05_RecyclerView_优化.md          # ViewHolder/预取/DiffUtil
-├── 06_Animations_动画.md            # View/Property 动画
+├── 05_RecyclerView 优化.md          # ViewHolder/预取/DiffUtil
+├── 06_Animations 动画.md            # View/Property 动画
 ├── 07_Material_Design.md            # Material Components
 ├── 08_Adapter 模式.md               # Adapter 设计模式
 └── 09_响应式布局.md                 # 多屏幕适配、折叠屏
@@ -52,7 +52,7 @@
 ├── 07_密封类.md                     # Sealed Class vs Enum
 ├── 08_内联函数.md                   # inline/noinline/crossinline/reified
 ├── 09_协程详解.md                   # launch/async/Scope/Dispatcher
-├── 10_Suspend_函数.md               # 挂起与恢复
+├── 10_Suspend 函数.md               # 挂起与恢复
 ├── 11_CoroutineScope.md             # SupervisorJob/结构化并发
 └── 12_Flow 操作符.md                # StateFlow/SharedFlow/操作符
 ```
@@ -102,10 +102,10 @@
 ```
 07_Architecture/
 ├── 01_MVVM_架构.md               # ViewModel+LiveData/Flow 在架构中的应用
-├── 02_MVP_架构.md               # Presenter 设计
-├── 03_MVI_架构.md               # State/Intent/Event/单向数据流
-├── 04_VIPER_架构.md             # Viper 分层
-├── 05_Repository_模式.md        # 数据源抽象/缓存策略
+├── 02_MVP 架构.md               # Presenter 设计
+├── 03_MVI 架构.md               # State/Intent/Event/单向数据流
+├── 04_VIPER 架构.md             # Viper 分层
+├── 05_Repository 模式.md        # 数据源抽象/缓存策略
 ├── 06_Clean_Architecture.md     # 分层/依赖倒置
 └── 07_架构对比.md               # MVC/MVP/MVVM/MVI 对比选择
 ```
@@ -116,7 +116,7 @@
 08_DI/
 ├── 01_DI 基础概念.md            # 依赖倒置/IoC/三种注入方式
 ├── 02_Hilt 框架.md              # @HiltAndroidApp/@Module/@Inject
-├── 03_Dagger_2.md              # Component/Module/SubComponent
+├── 03_Dagger 2.md              # Component/Module/SubComponent
 ├── 04_Koin.md                  # DSL 语法/作用域
 ├── 05_作用域管理.md            # Singleton/Scoped/Factory
 └── 06_测试与模拟.md            # DI 测试/Mock 注入
@@ -172,7 +172,7 @@
 ├── 07_动画性能.md              # 硬件加速
 ├── 08_数据库优化.md            # Room 查询优化
 ├── 09_渲染优化.md              # GPU 渲染/Systrace
-└── 10_Profiler_工具.md         # Android Profiler/Perfetto
+└── 10_Profiler 工具.md         # Android Profiler/Perfetto
 ```
 
 ### 模块十三：测试与调试 (Testing)
@@ -183,8 +183,8 @@
 ├── 02_模拟_Mockk.md            # Mock/Mockk
 ├── 03_UI 测试_Espresso.md      # Espresso UI 测试
 ├── 04_自动化测试.md            # 自动化测试框架
-├── 05_Logcat_调试.md
-├── 06_AndroidStudio_调试.md
+├── 05_Logcat 调试.md
+├── 06_AndroidStudio 调试.md
 ├── 07_性能分析.md
 └── 08_内存泄漏_LeakCanary.md
 ```
@@ -193,11 +193,11 @@
 **系统原理 + Binder + AMS/WMS/PMS**
 ```
 14_System/
-├── 01_Zygote_进程.md
+├── 01_Zygote 进程.md
 ├── 02_SystemServer.md
 ├── 03_AMS_PMS_WMS.md          # 三大服务
-├── 04_Binder_机制.md           # Binder IPC/AIDL 底层
-├── 05_AIDL_跨进程.md           # 跨进程通信
+├── 04_Binder 机制.md           # Binder IPC/AIDL 底层
+├── 05_AIDL 跨进程.md           # 跨进程通信
 ├── 06_启动流程.md              # Bootloader→Kernel→Init→Zygote
 ├── 07_包安装流程.md            # PMS 解析 APK/签名验证
 ├── 08_通知机制.md              # NotificationChannel
@@ -209,11 +209,11 @@
 **Gradle + 模块化 + CI/CD**
 ```
 15_Engineering/
-├── 01_Gradle_基础.md
+├── 01_Gradle 基础.md
 ├── 02_Groovy_Kotlin_DSL.md
 ├── 03_模块化架构.md            # 模块划分/依赖管理
 ├── 04_动态特性.md              # Dynamic Feature Module
-├── 05_ARC_插件.md
+├── 05_ARC 插件.md
 ├── 06_CI_CD.md                # GitHub Actions/GitLab CI
 ├── 07_代码规范.md              # Kotlin Style Guide
 ├── 08_版本管理.md              # Semantic Versioning
