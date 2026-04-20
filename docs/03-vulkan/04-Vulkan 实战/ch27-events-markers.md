@@ -93,6 +93,7 @@ debug_marker.end_debug_marker_ext(cmd_buffer)
 ### 27.2.2 常用调试标记
 
 | 函数 | 用途 |
+| - | - |
 | `cmd_debug_marker()` | 简单标记 |
 | `begin_debug_marker()` | 开始组（可嵌套） |
 | `end_debug_marker()` | 结束组 |
@@ -103,6 +104,7 @@ debug_marker.end_debug_marker_ext(cmd_buffer)
 ### 27.2.3 标记着色（推荐配色）
 
 | 颜色 | 用途 |
+| - | - |
 | 红色 | 渲染 Pass 开始/结束 |
 | 绿色 | 资源分配 |
 | 蓝色 | 命令缓冲记录 |
@@ -146,6 +148,7 @@ device.set_debug_utils_object_name(
 ## 27.4 事件与标记速查
 
 | 概念 | 函数 | 说明 |
+| - | - | - |
 | **Event** | `create_event()` | GPU 条件信号 |
 | **Set Event** | `cmd_set_event()` | 触发事件 |
 | **Wait Events** | `cmd_wait_events()` | 等待事件 |
@@ -154,6 +157,3 @@ device.set_debug_utils_object_name(
 | **Object Name** | `set_debug_utils_object_name()` | 对象命名 |
 
 ---
-
-| **27. 事件与标记** | ✅ |
-| 28-30 | 🔲 |

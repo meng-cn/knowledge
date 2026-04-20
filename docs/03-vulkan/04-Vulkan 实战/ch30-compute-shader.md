@@ -69,7 +69,7 @@ void main() {
 ### 30.2.2 内置变量
 
 | 变量 | 类型 | 说明 |
-|--|--|
+| - | - | - | 
 | `gl_GlobalInvocationID` | `uvec3` | 全局线程 ID |
 | `gl_LocalInvocationID` | `uvec3` | 工作组内线程 ID |
 | `gl_WorkGroupID` | `uvec3` | 工作组 ID |
@@ -232,6 +232,7 @@ print(f"Max invocations: {max_work_group_invocations}")
 ### 30.4.2 工作组大小选择
 
 | 工作负载 | 推荐工作组大小 |
+| - | - |
 | 向量计算 | `local_size_x = 256` |
 | 矩阵计算 | `local_size_x = 16, local_size_y = 16` |
 | 纹理处理 | `local_size_x = 16, local_size_y = 16` |
@@ -261,6 +262,7 @@ memoryBarrierImage();  // 确保 Image 写入完成
 ## 30.6 计算着色器 vs 图形着色器
 
 | 特性 | Compute | Graphics |
+| - | - | - |
 | **用途** | 通用计算 | 渲染 |
 | **工作组** | 可自定义 | 固定 |
 | **输入** | Buffer/Image | Vertex/Fragment |
@@ -273,6 +275,7 @@ memoryBarrierImage();  // 确保 Image 写入完成
 ## 30.7 计算着色器速查
 
 | 概念 | 说明 |
+| - | - |
 | `local_size_x/y/z` | 工作组大小 |
 | `gl_GlobalInvocationID` | 全局线程 ID |
 | `gl_LocalInvocationID` | 工作组内线程 ID |
@@ -285,7 +288,3 @@ memoryBarrierImage();  // 确保 Image 写入完成
 | `sharedBarrier()` | 工作组内屏障 |
 
 ---
-
-| 26-29 | ✅ |
-| **30. 计算着色器** | ✅ |
-| **Part IV · 全部完成** | ✅ |

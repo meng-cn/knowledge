@@ -72,6 +72,7 @@ instance.destroy()
 ### 2.2.2 常用实例扩展
 
 | 扩展 | 说明 |
+| - | - |
 | `VK_KHR_surface` | 所有平台的 Surface 基础 |
 | `VK_KHR_win32_surface` | Windows 窗口绑定 |
 | `VK_KHR_xlib_surface` | Linux/X11 窗口绑定 |
@@ -248,6 +249,7 @@ print(f"Graphics Queue: {graphics_queue}")
 ### 2.4.2 常用设备特性
 
 | 特性 | 说明 |
+| - | - |
 | `samplerAnisotropy` | 各向异性过滤 |
 | `sampleRateShading` | 采样率着色 |
 | `depthBiasClamp` | 深度偏置 |
@@ -299,6 +301,7 @@ glfw.terminate()
 ### 2.5.2 不同平台 Surface 创建
 
 | 平台 | 方式 | 说明 |
+| - | - | - |
 | **Windows** | `glfw_create_window()` + `glfw_create_window_surface()` | Win32 |
 | **Linux/X11** | `glfw_create_window()` + `glfw_create_window_surface()` | Xlib |
 | **Linux/Wayland** | `wl_display_connect()` + `wl_egl_window_create()` | Wayland |
@@ -356,6 +359,7 @@ instance.destroy()
 ## 2.7 初始化速查表
 
 | 步骤 | 关键 API | 说明 |
+| - | - | - | 
 | 1. 创建 Instance | `vkCreateInstance()` | 与驱动建立连接 |
 | 2. 枚举 Devices | `vkEnumeratePhysicalDevices()` | 获取 GPU 列表 |
 | 3. 选择 GPU | `vkGetPhysicalDeviceProperties()` | 查询能力 |

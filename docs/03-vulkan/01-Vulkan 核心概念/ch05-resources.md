@@ -86,6 +86,7 @@ device.destroy_buffer(buffer)
 ### 5.2.3 Buffer 用途标志
 
 | 用途 | 说明 |
+| - | - |
 | `VERTEX_BUFFER` | 顶点数据 |
 | `INDEX_BUFFER` | 索引数据 |
 | `UNIFORM_BUFFER` | 统一变量（Shader 输入） |
@@ -399,6 +400,7 @@ def upload_texture(device, staging_buffer, texture_image, texture_width, texture
 ## 5.5 Buffer vs Image 对比
 
 | 特性 | Buffer | Image |
+| - | - | - |
 | **维度** | 1D 数组 | 2D/3D 纹理 |
 | **内存分配** | 手动（你指定） | 自动（driver 处理） |
 | **用途** | 顶点、Uniform、计算 | 纹理、帧缓冲 |
@@ -410,6 +412,7 @@ def upload_texture(device, staging_buffer, texture_image, texture_width, texture
 ## 5.6 资源创建速查表
 
 | 资源 | 创建函数 | 关键参数 |
+| - | - | - |
 | **Buffer** | `device.create_buffer()` | size, usage |
 | **Buffer Memory** | `device.allocate_memory()` | allocationSize, memoryTypeIndex |
 | **Bind Buffer** | `device.bind_buffer_memory()` | buffer, memory, offset |

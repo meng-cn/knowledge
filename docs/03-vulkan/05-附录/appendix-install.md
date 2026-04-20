@@ -139,6 +139,7 @@ export VK_ICD_FILENAMES=/path/to/MoltenVK/vulkan/icd.d/MoltenVK_icd.json
 ## C.10 Vulkan 验证层速查
 
 | 验证层 | 功能 |
+| - | - |
 | `VK_LAYER_KHRONOS_validation` | 通用验证（推荐）✅ |
 | `VK_LAYER_LUNARG_api_dump` | API 转储 |
 | `VK_LAYER_LUNARG_image` | 图像验证 |
@@ -149,6 +150,7 @@ export VK_ICD_FILENAMES=/path/to/MoltenVK/vulkan/icd.d/MoltenVK_icd.json
 ## C.11 Vulkan SDK 安装速查
 
 | 平台 | 安装方式 |
+| - | - |
 | **Windows** | vulkansdk-windows.exe |
 | **Linux** | vulkan-sdk-x86_64.tar.gz |
 | **macOS** | brew install molten-vk |
@@ -156,8 +158,3 @@ export VK_ICD_FILENAMES=/path/to/MoltenVK/vulkan/icd.d/MoltenVK_icd.json
 | **Android** | NDK 自带 Vulkan |
 
 ---
-
-| A. API 速查 | ✅ |
-| B. 枚举对照 | ✅ |
-| **C. SDK 安装** | ✅ |
-| D. 资源延伸 | 🔲 |

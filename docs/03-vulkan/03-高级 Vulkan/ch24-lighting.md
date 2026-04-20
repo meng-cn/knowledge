@@ -59,11 +59,9 @@ float geometrySchlick(float NdotV, float roughness) {
 ## 24.4 光照类型速查
 
 | 光源 | 属性 | Shader 参数 |
+| - | - | - | 
 | **定向光** | 方向 | `uniform vec3 direction` (无衰减) |
 | **点光源** | 位置 | `uniform vec3 position` + 衰减 |
 | **聚光灯** | 位置+方向+角度 | `uniform vec3 position, direction` |
 
 ---
-
-| 16-22 | ✅ |
-| **23-24** | ✅ |

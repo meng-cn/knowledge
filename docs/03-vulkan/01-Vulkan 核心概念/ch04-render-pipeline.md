@@ -118,6 +118,7 @@ print(f"Render Pass 已创建!")
 ### 4.2.2 Attachment 详解
 
 | 属性 | 说明 |
+| - | - |
 | `format` | 像素格式 |
 | `samples` | 采样数（MSAA） |
 | `loadOp` | 渲染前操作（CLEAR/LOAD/DONT_CARE） |
@@ -130,6 +131,7 @@ print(f"Render Pass 已创建!")
 ### 4.2.3 Load/Store 操作选择
 
 | 操作 | 说明 | 何时用 |
+| - | - | - | 
 | **CLEAR** | 清除为固定值 | 每帧都需要 |
 | **LOAD** | 保留之前的内容 | 需要上一帧的结果 |
 | **DONT_CARE** | 不关心（驱动可优化） | 不需要之前的内容 |
@@ -339,6 +341,7 @@ fs_module.destroy()
 ## 4.4 图元拓扑类型
 
 | 拓扑类型 | 说明 | 适用场景 |
+| - | - | - |
 | **TRIANGLE_LIST** | 三角形列表（最常用 ✅） | 3D 模型 |
 | **LINE_LIST** | 线段列表 | 网格线 |
 | **LINE_STRIP** | 线段链 | 轮廓线 |
@@ -348,6 +351,7 @@ fs_module.destroy()
 ## 4.5 深度比较模式
 
 | 模式 | 说明 |
+| - | - |
 | `NEVER` | 永不通过 |
 | `LESS` | 小于通过 |
 | `EQUAL` | 等于通过 |
@@ -360,6 +364,7 @@ fs_module.destroy()
 ## 4.6 Pipeline 状态速查
 
 | 状态 | 关键参数 |
+| - | - |
 | Vertex Input | binding, stride, attribute |
 | Input Assembly | topology（TRIANGLE_LIST） |
 | Viewport | x,y,width,height |

@@ -58,6 +58,7 @@ struct UniformBufferObject {
 ### 11.3.1 对齐规则
 
 | 类型 | 对齐 | 大小 |
+| - | - | - | 
 | `float` / `int` | 4 | 4 bytes |
 | `vec2` | 8 | 8 bytes |
 | `vec3` | 16 | 16 bytes |
@@ -94,6 +95,7 @@ gl_Position = proj * view * transform * vec4(aPos, 1.0);
 ## 11.6 内置变量
 
 | 变量 | 说明 |
+| - | - |
 | `gl_Position` | 裁剪空间位置（输出） |
 | `gl_PointSize` | 点大小（gl.POINT_LIST） |
 | `gl_ClipDistance` | 自定义裁剪 |
@@ -102,11 +104,3 @@ gl_Position = proj * view * transform * vec4(aPos, 1.0);
 | `gl_VertexID` | 顶点 ID（内置输入） |
 
 ---
-
-| 7-10 | ✅ |
-| **11. 顶点着色器** | ✅ |
-| 12-15 | 🔲 |
-| 16-25 | 🔲 |
-| 26-35 | 🔲 |
-| 36-40 | 🔲 |
-| A-D 附录 | 🔲 |

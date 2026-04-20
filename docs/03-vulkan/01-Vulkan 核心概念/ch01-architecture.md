@@ -7,6 +7,7 @@
 ### 核心设计哲学
 
 | 原则 | 说明 |
+| - | - |
 | **显式控制** | 一切由开发者管理，Driver 几乎不干预 |
 | **低开销** | 减少 CPU 驱动层开销，CPU/GPU 并行 |
 | **多线程优化** | 原生支持多线程命令提交 |
@@ -385,6 +386,7 @@ Input Assembly (顶点组装)
 ## 1.6 关键术语速查
 
 | 术语 | 说明 | 类比 |
+| - | - | - |
 | **Instance** | Vulkan 实例，与驱动的连接 | HTTP 客户端 |
 | **Physical Device** | 实际的 GPU 硬件 | 物理显卡 |
 | **Logical Device** | 从 Physical Device 创建的虚拟连接 | 数据库连接 |
@@ -459,6 +461,7 @@ while not should_terminate:
 ## 1.9 核心 API 分类速查
 
 | 类别 | 函数 |
+| - | - |
 | **初始化** | `vkCreateInstance()`, `vkCreateDevice()` |
 | **枚举** | `vkEnumeratePhysicalDevices()`, `vkEnumerateInstanceExtensionProperties()` |
 | **资源** | `vkCreateBuffer()`, `vkCreateImage()`, `vkCreateSampler()` |

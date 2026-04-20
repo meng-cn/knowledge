@@ -181,12 +181,14 @@ layout(binding = 1) uniform InstanceUBO {
 ## 17.7 实例化性能对比
 
 | 方式 | DrawCalls | CPU 时间 | GPU 利用率 |
+| - | - | - | - |
 | 逐个绘制 (N=1000) | 1000 | ~15 ms | ~40% |
 | **实例化 (N=1000)** | **1** | **~0.5 ms** | **~90%** ✅ |
 
 ## 17.8 实例化速查
 
 | 概念 | 要点 |
+| - | - |
 | inputRate | VERSE = 每顶点, INSTANCE = 每实例 |
 | draw() | instanceCount > 1 即实例化 |
 | vertexOffset | 顶点索引偏移 |
@@ -195,6 +197,3 @@ layout(binding = 1) uniform InstanceUBO {
 | Shader | 通过 `in` 属性读取实例数据 |
 
 ---
-
-| **16-17** | ✅ |
-| 18-25 | 🔲 |

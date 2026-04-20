@@ -232,6 +232,7 @@ class SimpleRenderGraph:
 ## 28.5 渲染图速查
 
 | 概念 | 说明 |
+| - | - |
 | **Pass** | 一个渲染通道 |
 | **Node** | Pass 节点（有向图节点）|
 | **Edge** | Pass 依赖（有向图边）|
@@ -241,7 +242,3 @@ class SimpleRenderGraph:
 | **Execute** | 执行图（按拓扑顺序执行 Pass）|
 
 ---
-
-| 26-27 | ✅ |
-| **28. 渲染图** | ✅ |
-| 29-30 | 🔲 |

@@ -151,6 +151,7 @@ if not (mem_prop.memory_types[mem_type_idx].propertyFlags &
 ## 26.7 内存分配策略速查
 
 | 用途 | 推荐内存类型 | 原因 |
+| - | - | - | 
 | **Vertex Buffer** | DEVICE_LOCAL | GPU 高速访问 |
 | **Index Buffer** | DEVICE_LOCAL | GPU 高速访问 |
 | **Uniform Buffer** | DEVICE_LOCAL | GPU 高速访问 |
@@ -162,6 +163,7 @@ if not (mem_prop.memory_types[mem_type_idx].propertyFlags &
 ## 26.8 内存管理进阶速查
 
 | 概念 | 说明 |
+| - | - |
 | Memory Type | 物理设备定义的内存类型 |
 | Memory Heap | 内存堆（物理存储池）|
 | Memory Allocation | 从 Heap 分配内存 |
@@ -172,6 +174,3 @@ if not (mem_prop.memory_types[mem_type_idx].propertyFlags &
 | Memory Synchronization | 相干/非相干同步 |
 
 ---
-
-| **26. 内存管理进阶** | ✅ |
-| 27-30 | 🔲 |

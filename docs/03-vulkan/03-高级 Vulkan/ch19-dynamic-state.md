@@ -17,6 +17,7 @@
 ## 18.2 支持的动态状态
 
 | 动态状态 | Pipeline 中的默认值 | 动态设置方式 |
+| - | - | - | 
 | `VIEWPORT` | `Viewport` | `vkCmdSetViewport()` |
 | `SCISSOR` | `Rect2D` | `vkCmdSetScissor()` |
 | `LINE_WIDTH` | `float` | `vkCmdSetLineWidth()` |
@@ -86,6 +87,7 @@ command_buffer.set_depth_bounds(0.0, 1.0)  # 动态深度范围
 ## 18.4 动态状态 vs 静态状态
 
 | 特性 | 动态状态 | 静态状态 |
+| - | - | - | 
 | 性能 | ⚡ 快（运行时设置） | 中等（Pipeline 固化） |
 | 灵活性 | 高（每帧可改） | 低（需重建 Pipeline） |
 | Pipeline 创建成本 | 中等 | 中等 |
@@ -96,6 +98,7 @@ command_buffer.set_depth_bounds(0.0, 1.0)  # 动态深度范围
 ## 18.5 动态状态速查
 
 | 动态状态 | 用途 |
+| - | - |
 | VIEWPORT | 视口尺寸/位置 |
 | SCISSOR | 裁剪区域 |
 | LINE_WIDTH | 线宽 |
@@ -108,7 +111,3 @@ command_buffer.set_depth_bounds(0.0, 1.0)  # 动态深度范围
 | DYNAMIC_SAMPLE_LOCATIONS | 采样位置（MSAA） |
 
 ---
-
-| 16-17 | ✅ |
-| **18. 动态状态** | ✅ |
-| 19-25 | 🔲 |

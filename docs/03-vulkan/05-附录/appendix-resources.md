@@ -3,6 +3,7 @@
 ## D.1 官方资源
 
 | 资源 | 链接 |
+| - | - |
 | Vulkan 规范 | https://www.khronos.org/vulkan/ |
 | Vulkan Registry | https://github.com/KhronosGroup/Vulkan-Docs |
 | Vulkan SPIR-V | https://github.com/KhronosGroup/SPIRV-Registry |
@@ -14,6 +15,7 @@
 ## D.2 教程
 
 | 名称 | 语言 | 级别 | 说明 |
+| - | - | - | - |
 | **vulkan-tutorial.com** | C++ | 入门 | 最佳入门教程 ✅ |
 | **vulkan-tutorial.com (Python)** | Python | 入门 | Vulkan.py 绑定 |
 | **learnvulkan.com** | C++ | 入门 | 交互式教程 |
@@ -25,6 +27,7 @@
 ## D.3 书籍
 
 | 书名 | 作者 | 评价 |
+| - | - | - |
 | **Vulkan Programming Guide** | Graham Sellers | 权威参考 ✅ |
 | **Vulkan Guide** | Werner A. | 入门友好 |
 | **Real-Time Rendering 4th** | Tomas Akenine-Moller | 实时渲染圣经 |
@@ -37,6 +40,7 @@
 ## D.4 示例项目
 
 | 项目 | 说明 |
+| - | - |
 | **Vulkan-Samples** | Khronos 官方示例 ✅ |
 | **Vulkan-Hpp** | C++ 头文件包装器 |
 | **Vulkan-Python** | Python 绑定 (Vulkan.py) |
@@ -58,6 +62,7 @@
 ## D.5 工具链
 
 | 工具 | 用途 |
+| - | - |
 | **glslc** | GLSL → SPIR-V |
 | **spirv-val** | SPIR-V 验证 |
 | **spirv-cross** | SPIR-V → 其他着色器 |
@@ -74,6 +79,7 @@
 ## D.6 社区
 
 | 社区 | 说明 |
+| - | - |
 | **Khronos Vulkan WG** | Vulkan 工作组 |
 | **Reddit r/vulkan** | Vulkan 社区 |
 | **Vulkan 论坛** | Vulkan 官方论坛 |
@@ -115,6 +121,7 @@
 ## D.8 资源速查
 
 | 类型 | 推荐 |
+| - | - |
 | **最佳入门教程** | vulkan-tutorial.com ✅ |
 | **最佳示例** | Vulkan-Samples ✅ |
 | **最佳书籍** | Vulkan Programming Guide ✅ |
@@ -131,12 +138,10 @@
 ## 附录总览
 
 | 附录 | 内容 |
+| - | - |
 | **A. API 速查** | 10 个类别的 Vulkan 函数速查 |
 | **B. 枚举对照** | 10+ 个枚举类别的对照表 |
 | **C. SDK 安装** | Windows/Linux/macOS/Android/MoltenVK |
 | **D. 资源延伸** | 教程/书籍/示例/工具/社区/学习路径 |
 
 ---
-
-> 附录全部完成 ✅
-> Vulkan 文档总计 44 章全部完成！

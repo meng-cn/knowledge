@@ -5,6 +5,7 @@
 ### 25.1.1 颜色格式
 
 | 格式 | 位深 | 说明 |
+| - | - | - | 
 | `R8_UNORM` | 8 | 单通道 8 位 |
 | `RG8_UNORM` | 16 | 双通道 8 位 |
 | `RGBA8_UNORM` | 32 | 标准 8 位 RGBA |
@@ -21,6 +22,7 @@
 ### 25.1.2 深度格式
 
 | 格式 | 深度 | 模板 |
+| - | - | - | 
 | `D32_SFLOAT` | 32 bit | 无 |
 | `D24_UNORM_S8_UINT` | 24 bit | 8 bit ✅ |
 | `X8_D24_UNORM` | 24 bit | 8 bit |
@@ -110,6 +112,7 @@ def transition_layout(cmd_buffer, image, old_layout, new_layout):
 ## 25.4 格式速查
 
 | 用途 | 推荐格式 |
+| - | - |
 | **纹理显示** | `B8G8R8A8_SRGB` |
 | **HDR 纹理** | `RGBA32_SFLOAT` |
 | **深度缓冲** | `D24_UNORM_S8_UINT` |
@@ -118,7 +121,3 @@ def transition_layout(cmd_buffer, image, old_layout, new_layout):
 | **阴影贴图** | `D32_SFLOAT` |
 
 ---
-
-| 16-24 | ✅ |
-| **25. 图像格式与子资源** | ✅ |
-| **Part III · 全部完成** | ✅ **25/44 章** |

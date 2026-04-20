@@ -64,6 +64,7 @@ sampler = device.create_sampler(sampler_create_info)
 ### 9.2.2 寻址模式（Address Mode）
 
 | 模式 | 说明 | 适用场景 |
+| - | - | - | 
 | **REPEAT** | 重复纹理 | 地面/背景 ✅ |
 | **MIRRORED_REPEAT** | 镜像重复 | 无缝重复 |
 | **CLAMP_TO_EDGE** | 夹到边缘 | UI/菜单 ✅ |
@@ -73,12 +74,14 @@ sampler = device.create_sampler(sampler_create_info)
 ### 9.2.3 过滤模式（Filter）
 
 | 模式 | 说明 |
+| - | - |
 | **NEAREST** | 最近邻（像素化） |
 | **LINEAR** | 双线性（平滑） |
 
 ### 9.2.4 Mipmap LOD 模式
 
 | 模式 | 说明 |
+| - | - |
 | `NEAREST` | 最近 LOD 层级 |
 | `LINEAR` | 线性插值 LOD |
 | `NEAREST_MIP_LINEAR` | 最近 + 线性 |
@@ -171,6 +174,7 @@ sampler_aniso = vkbottle.SamplerCreateInfo(
 ### 9.5.1 常见纹理格式
 
 | 格式 | 每像素 | 说明 |
+| - | - | - | 
 | `R8_UNORM` | 1 byte | 单通道 8 位 |
 | `RG8_UNORM` | 2 bytes | 双通道 8 位 |
 | `RGBA8_UNORM` | 4 bytes | 标准 8 位 RGBA |
@@ -191,6 +195,7 @@ sampler_aniso = vkbottle.SamplerCreateInfo(
 ### 9.5.2 压缩纹理格式
 
 | 压缩格式 | 压缩比 | 质量 | 平台 |
+| - | - | - | - |
 | **BC1/BC7** | 4:1 | 高 | PC (DXT) |
 | **ETC2** | 4:1 | 中 | Android |
 | **ASTC** | 可变 | 高 | Android/iOS |
@@ -215,6 +220,7 @@ formats = device.get_physical_device().get_format_properties()
 ## 9.6 创建 Sampler 速查
 
 | 参数 | 常用值 | 说明 |
+| - | - | - | 
 | `magFilter` | `LINEAR` | 放大过滤 |
 | `minFilter` | `LINEAR` | 缩小过滤 |
 | `mipmapMode` | `LINEAR` | Mipmap 过滤 |
@@ -295,12 +301,3 @@ sampler_no_mip = device.create_sampler(
 ```
 
 ---
-
-| 1-6. 基础架构到同步 | ✅ (6 章) |
-| **Part II · 中级 Vulkan** | 🔲 |
-| 7-9. 描述符/深度/采样 | 🔲 |
-| 10-15 | 🔲 |
-| 16-25 | 🔲 |
-| 26-35 | 🔲 |
-| 36-40 | 🔲 |
-| A-D 附录 | 🔲 |

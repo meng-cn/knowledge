@@ -186,6 +186,7 @@ command_buffer.set_depth_bias_slope(0.0, 0.0);   # 斜率偏置
 ## 20.7 阴影映射优化
 
 | 优化方法 | 说明 |
+| - | - |
 | **PCF** | 平滑阴影边缘 |
 | **Shadow Bias** | 解决自遮挡 |
 | **Cascade Shadow Maps** | 多个阴影贴图（近处详细、远处粗略）|
@@ -195,7 +196,3 @@ command_buffer.set_depth_bias_slope(0.0, 0.0);   # 斜率偏置
 | **Frustum Culling** | 只渲染对光源可见的物体 |
 
 ---
-
-| 16-19 | ✅ |
-| **20. 阴影映射** | ✅ |
-| 21-25 | 🔲 |

@@ -160,6 +160,7 @@ vec3 getEnvironmentLighting(vec3 N) {
 ## 22.6 光源类型速查
 
 | 光源 | 属性 | Shader 参数 | 衰减公式 |
+| - | - | - | - |
 | **定向光** | 方向 | `uniform vec3 direction` | 无衰减 ✅ |
 | **点光源** | 位置 | `uniform vec3 position` | 1/(a+b·d+c·d²) |
 | **聚光灯** | 位置+方向+角度 | `uniform vec3 position, direction` | 圆锥角 + 衰减 |
@@ -187,8 +188,3 @@ vec3 getSpotLight() {
 ```
 
 ---
-
-| 16-20 | ✅ |
-| **21. 阴影映射** | ✅ |
-| **22. 光照计算** | ✅ |
-| 23-25 | 🔲 |

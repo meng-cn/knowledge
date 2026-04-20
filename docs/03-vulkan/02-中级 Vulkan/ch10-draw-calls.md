@@ -111,6 +111,7 @@ device.unmap_memory(index_buffer_memory)
 ### 10.2.2 索引类型
 
 | 类型 | Vulkan 对应 | 说明 |
+| - | - | - | 
 | 16-bit (`uint16_t`) | `VK_FORMAT_R32_UINT` | 最多 65535 个顶点 |
 | 32-bit (`uint32_t`) | `VK_FORMAT_R32_UINT` | **推荐 ✅** |
 
@@ -183,6 +184,7 @@ command_buffer.draw_indirect(
 ## 10.4 图元拓扑类型
 
 | 拓扑 | 说明 | 顶点数 |
+| - | - | - |
 | `TRIANGLE_LIST` | 三角形列表 | 3N |
 | `LINE_LIST` | 线段列表 | 2N |
 | `LINE_STRIP` | 线段链 | N+1 |
@@ -194,6 +196,7 @@ command_buffer.draw_indirect(
 ## 10.5 绘制命令速查
 
 | 命令 | 用途 |
+| - | - |
 | `vkCmdDraw()` | 直接顶点绘制 |
 | `vkCmdDrawIndexed()` | 索引绘制 |
 | `vkCmdDrawIndirect()` | 间接绘制 |
@@ -218,13 +221,3 @@ command_buffer.draw_indirect(
 | `R32G32B32_UINT` | `uvec3` |
 
 ---
-
-| 7. 描述符 | ✅ |
-| 8. 深度与模板 | ✅ |
-| 9. 采样器与纹理 | ✅ |
-| 10. 顶点与索引绘制 | ✅ |
-| 11-15 | 🔲 |
-| 16-25 | 🔲 |
-| 26-35 | 🔲 |
-| 36-40 | 🔲 |
-| A-D 附录 | 🔲 |

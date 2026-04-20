@@ -270,6 +270,7 @@ print(f"Max work group size: {max_work_group}")  # (maxX, maxY, maxZ)
 ## 29.6 异步计算速查
 
 | 概念 | 说明 |
+| - | - |
 | **Queue Family** | 队列族（Graphics/Compute/Transfer） |
 | **Semaphore** | Queue 间同步 |
 | **Fence** | CPU 等待 Queue |
@@ -280,7 +281,3 @@ print(f"Max work group size: {max_work_group}")  # (maxX, maxY, maxZ)
 | **Pipeline Barrier** | Queue 间同步 |
 
 ---
-
-| 26-28 | ✅ |
-| **29. 异步计算** | ✅ |
-| **30. 计算着色器** | 🔲 |

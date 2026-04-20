@@ -110,6 +110,7 @@ float depthTex = texture(texSampler, uv).r;  // 深度纹理
 ## 12.4 输出合并
 
 | 操作 | 函数 |
+| - | - |
 | `mix(a, b, t)` | 线性插值 |
 | `smoothstep(edge0, edge1, x)` | 平滑边界 |
 | `clamp(x, min, max)` | 范围限制 |
@@ -133,11 +134,3 @@ def load_shader(device, path):
 ```
 
 ---
-
-| 7-11 | ✅ |
-| **12. 片元着色器** | ✅ |
-| 13-15 | 🔲 |
-| 16-25 | 🔲 |
-| 26-35 | 🔲 |
-| 36-40 | 🔲 |
-| A-D 附录 | 🔲 |

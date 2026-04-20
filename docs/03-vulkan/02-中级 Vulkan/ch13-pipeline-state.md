@@ -185,11 +185,3 @@ pipeline_cache_import = vkbottle.PipelineCacheCreateInfo(
 ```
 
 ---
-
-| 7-12 | ✅ |
-| **13. 管线状态管理** | ✅ |
-| 14-15 | 🔲 |
-| 16-25 | 🔲 |
-| 26-35 | 🔲 |
-| 36-40 | 🔲 |
-| A-D 附录 | 🔲 |

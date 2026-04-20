@@ -3,6 +3,7 @@
 ## A.1 实例化
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateInstance()` | 创建 Vulkan 实例 |
 | `vkDestroyInstance()` | 销毁实例 |
 | `vkEnumeratePhysicalDevices()` | 枚举物理设备 |
@@ -15,6 +16,7 @@
 ## A.2 设备
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateDevice()` | 创建逻辑设备 |
 | `vkDestroyDevice()` | 销毁逻辑设备 |
 | `vkGetDeviceQueue()` | 获取队列 |
@@ -23,6 +25,7 @@
 ## A.3 交换链
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateSwapchainKHR()` | 创建交换链 |
 | `vkDestroySwapchainKHR()` | 销毁交换链 |
 | `vkGetSwapchainImagesKHR()` | 获取交换链图像 |
@@ -32,6 +35,7 @@
 ## A.4 资源
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateBuffer()` | 创建 Buffer |
 | `vkDestroyBuffer()` | 销毁 Buffer |
 | `vkCreateImage()` | 创建 Image |
@@ -44,6 +48,7 @@
 ## A.5 内存
 
 | 函数 | 说明 |
+| - | - |
 | `vkAllocateMemory()` | 分配内存 |
 | `vkFreeMemory()` | 释放内存 |
 | `vkMapMemory()` | 映射内存 |
@@ -56,6 +61,7 @@
 ## A.6 命令缓冲
 
 | 函数 | 说明 |
+| - | - |
 | `vkAllocateCommandBuffers()` | 分配 Command Buffer |
 | `vkFreeCommandBuffers()` | 释放 Command Buffer |
 | `vkCreateCommandPool()` | 创建 Command Pool |
@@ -70,6 +76,7 @@
 ## A.7 渲染
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateRenderPass()` | 创建 Render Pass |
 | `vkDestroyRenderPass()` | 销毁 Render Pass |
 | `vkCreateGraphicsPipelines()` | 创建 Graphics Pipeline |
@@ -94,6 +101,7 @@
 ## A.8 同步
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateSemaphore()` | 创建 Semaphore |
 | `vkDestroySemaphore()` | 销毁 Semaphore |
 | `vkCreateFence()` | 创建 Fence |
@@ -114,6 +122,7 @@
 ## A.9 描述符
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateDescriptorSetLayout()` | 创建描述符集布局 |
 | `vkDestroyDescriptorSetLayout()` | 销毁描述符集布局 |
 | `vkCreateDescriptorPool()` | 创建描述符池 |
@@ -126,12 +135,14 @@
 ## A.10 Shader
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateShaderModule()` | 创建 Shader Module |
 | `vkDestroyShaderModule()` | 销毁 Shader Module |
 
 ## A.11 Surface
 
 | 函数 | 说明 |
+| - | - |
 | `vkCreateSurfaceKHR()` | 创建 Surface |
 | `vkDestroySurfaceKHR()` | 销毁 Surface |
 | `vkGetPhysicalDeviceSurfaceSupportKHR()` | 查询 Surface 支持 |
@@ -142,6 +153,7 @@
 ## A.12 常用命令速查
 
 | 命令 | 说明 |
+| - | - |
 | `vkCmdBindPipeline()` | 绑定管线 |
 | `vkCmdBindDescriptorSets()` | 绑定描述符集 |
 | `vkCmdBindVertexBuffers()` | 绑定顶点缓冲 |
@@ -177,13 +189,9 @@
 ## A.13 错误处理
 
 | 函数 | 说明 |
+| - | - |
 | `vkResultToString()` | 错误码 → 字符串 |
 | `vkResultName()` | 错误码 → 名称 |
 | `vkResultString()` | 错误码 → 字符串 |
 
 ---
-
-| **A. API 速查** | ✅ |
-| B. 枚举对照 | 🔲 |
-| C. SDK 安装 | 🔲 |
-| D. 资源延伸 | 🔲 |

@@ -222,6 +222,7 @@ void bloom_pass(RenderTarget input, RenderTarget blur, RenderTarget output) {
 ## 16.5 常用后处理效果
 
 | 效果 | 类型 | 说明 |
+| - | - | - | 
 | **高斯模糊** | 模糊 | 通用模糊 |
 | **Bloom** | 发光 | 提取亮部 + 模糊 + 叠加 |
 | **色调映射** | 映射 | HDR → LDR |
@@ -236,6 +237,7 @@ void bloom_pass(RenderTarget input, RenderTarget blur, RenderTarget output) {
 ## 16.6 渲染目标创建速查
 
 | 步骤 | 函数 |
+| - | - |
 | 创建 Image | `device.create_image()` |
 | 分配内存 | `device.allocate_memory()` |
 | 绑定 | `device.bind_image_memory()` |
@@ -244,6 +246,3 @@ void bloom_pass(RenderTarget input, RenderTarget blur, RenderTarget output) {
 | Framebuffer | `device.create_framebuffer()` |
 
 ---
-
-| **16. 渲染目标与后处理** | ✅ |
-| 17-25 | 🔲 |

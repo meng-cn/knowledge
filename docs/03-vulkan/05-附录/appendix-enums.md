@@ -3,6 +3,7 @@
 ## B.1 Image 用途
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_IMAGE_USAGE_TRANSFER_SRC_BIT` | 传输源 |
 | `VK_IMAGE_USAGE_TRANSFER_DST_BIT` | 传输目标 |
 | `VK_IMAGE_USAGE_SAMPLED_BIT` | 采样 |
@@ -16,6 +17,7 @@
 ## B.2 Buffer 用途
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_BUFFER_USAGE_TRANSFER_SRC_BIT` | 传输源 |
 | `VK_BUFFER_USAGE_TRANSFER_DST_BIT` | 传输目标 |
 | `VK_BUFFER_USAGE_UNIFORM_TEXEL_BUFFER_BIT` | Uniform texel 缓冲 |
@@ -32,6 +34,7 @@
 ## B.3 内存属性
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT` | GPU 本地 |
 | `VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT` | CPU 可映射 |
 | `VK_MEMORY_PROPERTY_HOST_COHERENT_BIT` | 自动同步 |
@@ -42,6 +45,7 @@
 ## B.4 图像布局
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_IMAGE_LAYOUT_UNDEFINED` | 未定义 |
 | `VK_IMAGE_LAYOUT_GENERAL` | 通用 |
 | `VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL` | 颜色附件 |
@@ -62,6 +66,7 @@
 ## B.5 访问类型
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_ACCESS_NONE` | 无 |
 | `VK_ACCESS_INDIRECT_COMMAND_READ_BIT` | 间接命令读取 |
 | `VK_ACCESS_INDEX_READ_BIT` | 索引读取 |
@@ -85,11 +90,13 @@
 ## B.6 渲染操作
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_ATTACHMENT_LOAD_OP_LOAD` | 加载 |
 | `VK_ATTACHMENT_LOAD_OP_CLEAR` | 清除 |
 | `VK_ATTACHMENT_LOAD_OP_DONT_CARE` | 不关心 |
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_ATTACHMENT_STORE_OP_STORE` | 存储 |
 | `VK_ATTACHMENT_STORE_OP_DONT_CARE` | 不关心 |
 | `VK_ATTACHMENT_STORE_OP_DONT_CARE_EXT` | 不关心 |
@@ -97,6 +104,7 @@
 ## B.7 呈现模式
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_PRESENT_MODE_IMMEDIATE_KHR` | 立即呈现 |
 | `VK_PRESENT_MODE_FIFO_KHR` | 垂直同步（推荐） |
 | `VK_PRESENT_MODE_FIFO_RELAXED_KHR` | VSync 释放锁 |
@@ -107,6 +115,7 @@
 ## B.8 图元拓扑
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_PRIMITIVE_TOPOLOGY_TRIANGLE_LIST` | 三角形列表 |
 | `VK_PRIMITIVE_TOPOLOGY_TRIANGLE_STRIP` | 三角形带 |
 | `VK_PRIMITIVE_TOPOLOGY_LINE_LIST` | 线列表 |
@@ -117,6 +126,7 @@
 ## B.9 深度比较操作
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_COMPARE_OP_NEVER` | 永远不通过 |
 | `VK_COMPARE_OP_LESS` | 小于 |
 | `VK_COMPARE_OP_EQUAL` | 等于 |
@@ -129,6 +139,7 @@
 ## B.10 模板操作
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_STENCIL_OP_KEEP` | 保留 |
 | `VK_STENCIL_OP_ZERO` | 设为 0 |
 | `VK_STENCIL_OP_REPLACE` | 替换 |
@@ -141,6 +152,7 @@
 ## B.11 寻址模式
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_SAMPLER_ADDRESS_MODE_REPEAT` | 重复（推荐） |
 | `VK_SAMPLER_ADDRESS_MODE_MIRRORED_REPEAT` | 镜像重复 |
 | `VK_SAMPLER_ADDRESS_MODE_CLAMP_TO_EDGE` | 夹到边缘 |
@@ -150,18 +162,21 @@
 ## B.12 过滤器
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_FILTER_NEAREST` | 最近邻 |
 | `VK_FILTER_LINEAR` | 双线性 |
 
 ## B.13 Mipmap 模式
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_SAMPLER_MIPMAP_MODE_NEAREST` | 最近 Mipmap |
 | `VK_SAMPLER_MIPMAP_MODE_LINEAR` | 线性 Mipmap |
 
 ## B.14 多边形模式
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_POLYGON_MODE_FILL` | 填充 |
 | `VK_POLYGON_MODE_LINE` | 线框 |
 | `VK_POLYGON_MODE_POINT` | 点 |
@@ -169,14 +184,10 @@
 ## B.15 剔除模式
 
 | 枚举值 | 说明 |
+| - | - |
 | `VK_CULL_MODE_NONE` | 不剔除 |
 | `VK_CULL_MODE_FRONT_BIT` | 剔除正面 |
 | `VK_CULL_MODE_BACK_BIT` | 剔除背面（推荐） |
 | `VK_CULL_MODE_FRONT_AND_BACK` | 剔除双面 |
 
 ---
-
-| A. API 速查 | ✅ |
-| **B. 枚举对照** | ✅ |
-| C. SDK 安装 | 🔲 |
-| D. 资源延伸 | 🔲 |

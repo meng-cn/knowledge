@@ -190,6 +190,7 @@ image_props = device.get_physical_device().get_image_format_properties(
 ## 15.7 MSAA 配置速查
 
 | 参数 | 值 | 说明 |
+| - | - | - | 
 | 采样数 | `_1` / `_2` / `_4` / `_8` | 1x/2x/4x/8x |
 | 性能开销 | 4x ≈ 1.5x | 8x ≈ 2x |
 | 推荐 | `_4` | 平衡点 ✅ |
@@ -209,7 +210,3 @@ image_props = device.get_physical_device().get_image_format_properties(
 ```
 
 ---
-
-| 1-6. 基础架构到同步 | ✅ (6 章) |
-| **Part II · 中级 Vulkan** | ✅ (9 章) |
-| **Part II 全部完成** | ✅ **15/44 章** |

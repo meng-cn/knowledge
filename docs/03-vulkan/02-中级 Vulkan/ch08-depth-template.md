@@ -75,6 +75,7 @@ depth_image_view = device.create_image_view(
 ### 8.2.2 深度格式选择
 
 | 格式 | 深度 | 模板 | 大小 | 说明 |
+| - | - | - | - | - |
 | `D32_SFLOAT` | 32 | 0 | 4 bytes | 高精度（无模板） |
 | `D24_UNORM_S8_UINT` | 24 | 8 | 4 bytes | 均衡 ✅ |
 | `D16_UNORM` | 16 | 0 | 2 bytes | 低精度 |
@@ -103,6 +104,7 @@ depth_stencil_info = vkbottle.DepthStencilStateCreateInfo(
 ### 8.3.2 深度比较操作
 
 | 操作 | 说明 | 适用场景 |
+| - | - | - |
 | `NEVER` | 永远不通过 | 调试 |
 | `LESS` | 近处遮挡远处 | 默认 ✅ |
 | `EQUAL` | 相等通过 | 特殊效果 |
@@ -163,6 +165,7 @@ depth_stencil_info = vkbottle.DepthStencilStateCreateInfo(
 ### 8.4.3 模板操作
 
 | 操作 | 说明 |
+| - | - |
 | `KEEP` | 保持模板值不变 |
 | `ZERO` | 设为 0 |
 | `REPLACE` | 设为参考值（Reference） |
@@ -175,6 +178,7 @@ depth_stencil_info = vkbottle.DepthStencilStateCreateInfo(
 ### 8.4.4 模板比较操作
 
 | 操作 | 说明 |
+| - | - |
 | `NEVER` | 永远不通过 |
 | `ALWAYS` | 永远通过 |
 | `LESS` | 参考值 < 模板值 |
@@ -229,6 +233,7 @@ rasterization_info = vkbottle.RasterizationStateCreateInfo(
 ## 8.7 深度/模板速查
 
 | 概念 | 配置位置 |
+| - | - |
 | 深度测试 | `depthStencilState.depthTestEnable` |
 | 深度写入 | `depthStencilState.depthWriteEnable` |
 | 深度比较 | `depthStencilState.depthCompareOp` |
@@ -240,12 +245,3 @@ rasterization_info = vkbottle.RasterizationStateCreateInfo(
 | 深度 Image | `Image(format=D32_SFLOAT...)` |
 
 ---
-
-| 7. 描述符 | ✅ |
-| 8. 深度与模板 | ✅ |
-| 9. 采样器与纹理 | 🔲 |
-| 10-15 | 🔲 |
-| 16-25 | 🔲 |
-| 26-30 | 🔲 |
-| 31-40 | 🔲 |
-| A-D 附录 | 🔲 |

@@ -121,6 +121,7 @@ def create_render_target_texture(device, width, height, format=vkbottle.Format.B
 ## 14.4 Framebuffer 速查
 
 | 操作 | 函数 |
+| - | - |
 | 创建 | `device.create_framebuffer()` |
 | 附件 | `attachments=[Image View, ...]` |
 | 尺寸 | `width, height, layers` |
@@ -128,11 +129,3 @@ def create_render_target_texture(device, width, height, format=vkbottle.Format.B
 | 销毁 | `framebuffer.destroy()` |
 
 ---
-
-| 7-13 | ✅ |
-| 14. 帧缓冲 | ✅ |
-| 15. 多重采样 | 🔲 |
-| 16-25 | 🔲 |
-| 26-35 | 🔲 |
-| 36-40 | 🔲 |
-| A-D 附录 | 🔲 |

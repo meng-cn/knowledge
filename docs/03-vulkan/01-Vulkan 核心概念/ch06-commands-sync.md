@@ -122,6 +122,7 @@ def record_command_buffer(device, command_pool, command_buffer, render_pass,
 ### 6.2.2 常用命令速查
 
 | 命令 | 作用 |
+| - | - |
 | `vkCmdBeginRenderPass()` | 开始渲染 |
 | `vkCmdEndRenderPass()` | 结束渲染 |
 | `vkCmdBindPipeline()` | 绑定管线 |
@@ -321,6 +322,7 @@ cmd_buffer.buffer_memory_barrier(
 ### 6.5.2 常用访问类型
 
 | 类型 | 说明 |
+| - | - |
 | `NONE` | 无访问（用于初始状态） |
 | `COLOR_ATTACHMENT_WRITE` | 颜色附件写入 |
 | `COLOR_ATTACHMENT_READ` | 颜色附件读取 |
@@ -356,6 +358,7 @@ Memory Barrier:          Resource Barrier:
 ## 6.7 同步机制速查
 
 | 同步对象 | 作用 | 创建函数 |
+| - | - | - |
 | **Fence** | CPU 等待 GPU | `vkCreateFence()` |
 | **Semaphore** | GPU 队列同步 | `vkCreateSemaphore()` |
 | **Event** | GPU 条件等待 | `vkCreateEvent()` |
@@ -403,23 +406,3 @@ queue_compute.submit(submit_compute)
 ```
 
 ---
-
-| 1. 架构与核心概念 | ch01 | ✅ |
-| 2. 初始化与生命周期 | ch02 | ✅ |
-| 3. 交换链 (Swap Chain) | ch03 | ✅ |
-| 4. 渲染管线 (Render Pipeline) | ch04 | ✅ |
-| 5. 资源管理 (Buffers & Images) | ch05 | ✅ |
-| 6. 命令缓冲与同步 | ch06 | ✅ |
-
-Part I 全部完成 ✅
-
-| Part | 进度 |
-| I · Vulkan 核心概念 (6 章) | ✅ 完成 |
-| II · 中级 Vulkan (9 章) | 🔲 |
-| III · 高级 Vulkan (10 章) | 🔲 |
-| IV · Vulkan 实战 (6 章) | 🔲 |
-| V · 附录 (4 章) | 🔲 |
-
-| 累计 | 6/35 章 |
-
-| 继续写 Part II（中级 Vulkan，第 7–15 章）？|

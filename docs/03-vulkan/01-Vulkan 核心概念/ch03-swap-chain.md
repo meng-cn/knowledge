@@ -29,6 +29,7 @@ Swap Chain 的好处:
 ### 3.1.2 呈现模式（Present Mode）
 
 | 模式 | 说明 | 延迟 | 撕裂 |
+| - | - | - | - |
 | **FIFO** | 垂直同步（最常用） | 最低 | ❌ |
 | **FIFO_RELAXED** | 无锁 VSync | 低 | ❌（下一帧） |
 | **IMMEDIATE** | 无锁（直接呈现） | 最低 | ✅ 可能 |
@@ -130,6 +131,7 @@ print(f"Swap Chain 已创建! 图像数: {len(swapchain_images)}, 尺寸: {swapc
 ### 3.2.2 关键参数说明
 
 | 参数 | 说明 | 推荐值 |
+| - | - | - |
 | `minImageCount` | 最小图像数（2=双缓冲，3=三缓冲） | 3（防止画面撕裂） |
 | `imageFormat` | 像素格式 | `B8G8R8A8_SRGB` |
 | `imageColorSpace` | 色彩空间 | `SRGB_NONLINEAR`（sRGB） |
@@ -207,6 +209,7 @@ def on_window_resize(window, width, height):
 ## 3.5 Swap Chain 速查
 
 | 操作 | 函数 |
+| - | - |
 | 获取图像数 | `swapchain.get_image_count()` |
 | 获取图像 | `swapchain.get_images()` |
 | 获取图像 View | `device.create_image_view()` |

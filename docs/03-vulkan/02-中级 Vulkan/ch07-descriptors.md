@@ -69,6 +69,7 @@ descriptor_set_layout = device.create_descriptor_set_layout(descriptor_layout_cr
 ### 7.2.2 常用 Descriptor 类型
 
 | 类型 | 用途 | Shader 中对应 |
+| - | - | - |
 | `UNIFORM_BUFFER` | Uniform 数据 | `uniform` |
 | `SAMPLED_IMAGE` | 采样纹理 | `texture2D` |
 | `SAMPLER` | 采样器 | `sampler2D` |
@@ -135,6 +136,7 @@ descriptor_pool = device.create_descriptor_pool(descriptor_pool_create_info)
 ### 7.3.2 Descriptor Pool 类型
 
 | 类型 | 说明 |
+| - | - |
 | **FIXED_ALLOCATE** | 固定分配（默认，一次性分配后不能修改） |
 | **FREE_DESCRIPTOR_SET_LAYOUT** | 可以分配不同类型的 Set（需要 Vulkan 1.1+） |
 
@@ -321,6 +323,7 @@ command_buffer.push_constants(
 ## 7.7 描述符相关速查
 
 | 对象 | 作用 | 创建/分配 |
+| - | - | - | 
 | **Descriptor Type** | 描述符类型 | `UNIFORM_BUFFER`, `SAMPLED_IMAGE`, ... |
 | **Descriptor Layout** | 描述符布局（签名） | `create_descriptor_set_layout()` |
 | **Descriptor Pool** | 描述符池 | `create_descriptor_pool()` |
@@ -330,11 +333,3 @@ command_buffer.push_constants(
 | **Pipeline Layout** | 管线布局（包含 Layouts） | `create_pipeline_layout()` |
 
 ---
-
-| 1. 架构与核心概念 | ✅ |
-| 2. 初始化与生命周期 | ✅ |
-| 3. 交换链 (Swap Chain) | ✅ |
-| 4. 渲染管线 (Render Pipeline) | ✅ |
-| 5. 资源管理 (Buffers & Images) | ✅ |
-| 6. 命令缓冲与同步 | ✅ |
-| **Part II · 中级 Vulkan** | 🔲 |
