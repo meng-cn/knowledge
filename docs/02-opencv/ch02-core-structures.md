@@ -364,5 +364,3 @@ cv::Mat img = cv::imdecode(cv::InputArray(buffer), cv::IMREAD_COLOR);
 | `at<>` 访问越界 | 行列颠倒（row=高, col=宽） | 注意 `img[y, x]` 而非 `img[x, y]` |
 
 ---
-
-> 下一章：[第三章 · 像素级图像操作](ch03-pixel-operations.md) →

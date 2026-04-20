@@ -247,5 +247,3 @@ def video_processing_pipeline(input_file, output_file):
 ```
 
 ---
-
-> 下一章：[第二十六章 · GUI 与交互](ch26-gui-interaction.md) →

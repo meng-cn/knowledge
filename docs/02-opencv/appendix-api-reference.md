@@ -47,5 +47,3 @@
 | `CAP_PROP_BUFFERSIZE` | 14 | 缓冲区大小 |
 
 ---
-
-> 下一章：[附录 B · 坐标系与变换公式](appendix-coordinates-formulas.md) →

@@ -197,5 +197,3 @@ g++ -o hello `pkg-config --cflags --libs opencv4` hello.cpp
 | API 速查 | <https://docs.opencv.org/4.x/index.html> |
 
 ---
-
-> 下一章：[第二章 · 核心数据结构](ch02-core-structures.md) →

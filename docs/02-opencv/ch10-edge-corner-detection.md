@@ -229,5 +229,3 @@ if corners is not None:
 | SubPix | `cv2.cornerSubPix()` | 亚像素角点精化 | 相机标定、特征跟踪 |
 
 ---
-
-> 下一章：[第十一章 · 特征检测与描述](ch11-feature-detection.md) →

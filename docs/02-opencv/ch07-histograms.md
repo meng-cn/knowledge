@@ -204,5 +204,3 @@ def compare_histograms(hist1, hist2, method='correlation'):
 ```
 
 ---
-
-> 下一章：[第八章 · 图像阈值与分割](ch08-thresholding.md) →

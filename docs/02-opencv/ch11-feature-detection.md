@@ -201,5 +201,3 @@ cv2.waitKey(0)
 ```
 
 ---
-
-> 下一章：[第十二章 · 特征匹配与 RANSAC](ch12-feature-matching.md) →

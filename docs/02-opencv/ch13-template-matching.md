@@ -233,6 +233,3 @@ res = res_gpu.download()
 
 > **Part III · 特征与匹配**（第 10–13 章）全部完成 ✅
 
-**累计进度：Part I ✅ (4) + Part II ✅ (5) + Part III ✅ (4) = 13/32 章**
-
-继续 Part IV（目标检测与跟踪，第 14–17 章）？

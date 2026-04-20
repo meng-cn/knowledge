@@ -294,5 +294,3 @@ cv2.add(img, val)
 4. 避免在循环中重复创建临时对象
 
 ---
-
-> 下一章：[第四章 · 几何变换](ch04-geometric-transforms.md) →

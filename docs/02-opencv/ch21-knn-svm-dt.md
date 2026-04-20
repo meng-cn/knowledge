@@ -230,5 +230,3 @@ _, results = mlp.predict(testData)
 | NB | `NormalBayes_create()` | 无需调参 |
 
 ---
-
-> 下一章：[第二十二章 · K-Means / 图像量化](ch22-kmeans-quantization.md) →

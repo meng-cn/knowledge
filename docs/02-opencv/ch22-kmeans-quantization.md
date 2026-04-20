@@ -118,5 +118,3 @@ def evaluate_clustering(labels, centers):
 ```
 
 ---
-
-> 下一章：[第二十三章 · HOG / 行人检测](ch23-hog-pedestrian.md) →

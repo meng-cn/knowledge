@@ -216,5 +216,3 @@ def motion_detect_pipeline(frame, fgbg, min_area=1000):
 | KNN | `createBackgroundSubtractorKNN()` | 前景掩码 | 阴影检测 |
 
 ---
-
-> 下一章：[第十七章 · 目标跟踪](ch17-object-tracking.md) →

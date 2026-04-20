@@ -286,5 +286,3 @@ print(f"FPS: {1000/latency:.1f}")
 ```
 
 ---
-
-> 下一章：[第十六章 · 光流与运动分析](ch16-optical-flow.md) →

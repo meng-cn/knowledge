@@ -249,5 +249,3 @@ def denoise_pipeline(img, method='combined'):
 ```
 
 ---
-
-> 下一章：[第六章 · 形态学操作](ch06-morphology.md) →

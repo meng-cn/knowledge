@@ -221,5 +221,3 @@ Q 矩阵 → 深度/3D坐标
 | 视差→3D | `reprojectImageTo3D` | XYZ 点云 |
 
 ---
-
-> 下一章：[第二十章 · PnP 与位姿估计](ch20-pnp-pose-estimation.md) →

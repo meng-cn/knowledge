@@ -248,5 +248,3 @@ if not cap.isOpened():
 | 版本冲突 | 重装 headless 或 contrib |
 
 ---
-
-> 下一章：[附录 D · 资源与延伸阅读](appendix-resources.md) →

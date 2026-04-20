@@ -230,5 +230,3 @@ sudo make install
 ```
 
 ---
-
-> 下一章：[第二十八章 · 实战案例集](ch28-cases.md) →

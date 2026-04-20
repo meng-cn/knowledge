@@ -231,5 +231,3 @@ print(f"平均重投影误差: {avg_error:.4f} pixels")
 | 校正 | `remap` | 应用校正 |
 
 ---
-
-> 下一章：[第十九章 · 立体视觉与深度估计](ch19-stereo-vision.md) →

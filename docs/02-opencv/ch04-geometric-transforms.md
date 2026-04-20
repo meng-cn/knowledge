@@ -286,4 +286,3 @@ def scale_and_pad(img, target_size, color=(0, 0, 0)):
 ---
 
 > Part I 全部完成 ✅
-> 下一章：[Part II · 图像处理](#)（第 5-9 章）→

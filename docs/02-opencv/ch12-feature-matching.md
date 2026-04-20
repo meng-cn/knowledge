@@ -263,5 +263,3 @@ def pyramid_match(img1, img2, orb, levels=3):
 ```
 
 ---
-
-> 下一章：[第十三章 · 模板匹配](ch13-template-matching.md) →

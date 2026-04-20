@@ -298,5 +298,3 @@ def segment_characters(binary_img):
 ```
 
 ---
-
-> 下一章：[第七章 · 直方图与图像增强](ch07-histograms.md) →

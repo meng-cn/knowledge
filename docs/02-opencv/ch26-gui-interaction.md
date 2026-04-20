@@ -250,5 +250,3 @@ def display_side_by_side(imgs):
 | 调色板 | `applyColorMap()` |
 
 ---
-
-> 下一章：[第二十七章 · CUDA 加速](ch27-cuda-acceleration.md) →

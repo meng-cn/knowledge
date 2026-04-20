@@ -204,5 +204,3 @@ def color_segmentation(img, lower, upper, color_space='BGR'):
 | 颜色范围 | `cv2.inRange()` | 颜色分割 |
 
 ---
-
-> 下一章：[第九章 · 卷积与频域处理](ch09-convolution-frequency.md) →

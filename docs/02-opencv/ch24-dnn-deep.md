@@ -279,5 +279,3 @@ boxes, confidences = detect_text_boxes(scores, geometry, w, h, conf_threshold=0.
 ```
 
 ---
-
-> 下一章：[第二十五章 · 视频处理](ch25-video-processing.md) →

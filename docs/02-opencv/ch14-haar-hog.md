@@ -209,5 +209,3 @@ def hierarchical_face_detection(img):
 ```
 
 ---
-
-> 下一章：[第十五章 · DNN 目标检测](ch15-dnn-detection.md) →
