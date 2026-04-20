@@ -2,93 +2,83 @@
 
 > 🎯 目标：面试准备 + 系统进阶学习  
 > 📅 版本：v24.0 | 📅 创建：2026-04-17 | 最终修订：2026-04-21
-> 📊 状态：索引已更新（与实际文件结构对齐）
-> ✅ 所有 18 个模块均有内容
-> 📅 最终修订：2026-04-21 05:20
+> 📊 状态：索引已对齐实际文件
+> 📅 最终修订：2026-04-21 05:36
 
 ---
 
-## 📂 文件目录结构
+## 📂 实际文件目录结构
 
 ```
 01-ios/
 ├── 01_Swift_Language/
-│   ├── 01_Swift_Basics.md              # ~97KB  Swift 语法全栈
-│   ├── 02_Swift_Advanced.md            # ~110KB Swift 高级特性
-│   └── 03_Swift_OC_Bridge.md           # ~83KB  Swift↔OC 混编
+│   ├── 01_Swift_Basics.md              (~97KB)  Swift 语法全栈
+│   ├── 02_Swift_Advanced.md            (~109KB) Swift 高级特性
+│   └── 03_Swift_OC_Bridge.md           (~83KB)  Swift↔OC 混编
 │
 ├── 02_Concurrency/
-│   ├── 01_GCD_Operation.md             # ~50KB  GCD + Operation
-│   ├── 02_Swift_Concurrency.md         # ~76KB  async/await + Actor
-│   └── 03_Concurrency_Deep.md          # ~37KB  并发深度
+│   ├── 01_GCD_Operation.md             (~50KB)  GCD + Operation
+│   ├── 02_Swift_Concurrency.md         (~76KB)  async/await + Actor
+│   └── 03_Concurrency_Deep.md          (~37KB)  并发深度
 │
 ├── 03_App_Core/
-│   └── 01_iOS_Basics.md                # ~169KB iOS 应用核心全栈
+│   └── 01_iOS_Basics.md                (~169KB) iOS 应用核心全栈
 │
 ├── 04_UI_Deep/
-│   ├── 01_View_Layout.md               # ~42KB  View 基础与布局
-│   ├── 02_UIKit_Controls.md            # ~48KB  UIKit 控件体系
-│   └── 03_UI_System_Deep.md            # ~53KB  UI 系统深度
+│   ├── 01_View_Layout.md               (~42KB)  View 基础与布局
+│   ├── 02_UIKit_Controls.md            (~48KB)  UIKit 控件体系
+│   └── 03_UI_System_Deep.md            (~53KB)  UI 系统深度
 │
 ├── 05_SwiftUI/
-│   └── 01_SwiftUI_Full.md              # ~108KB SwiftUI 全栈（完整版）
+│   └── 01_SwiftUI_Full.md              (~108KB) SwiftUI 全栈（完整版）
 │
 ├── 06_Architecture/
-│   └── 01_Architecture_Deep.md         # ~123KB 架构全栈深度
+│   └── 01_Architecture_Deep.md         (~123KB) 架构全栈深度
 │
 ├── 07_Storage_Deep/
-│   ├── 01_Local_Storage.md             # ~58KB  本地存储全栈
-│   └── 02_DB_Deep.md                   # （待补充）数据库深度
+│   └── 01_Local_Storage.md             (~58KB)  本地存储全栈
 │
 ├── 08_Network_Deep/
-│   ├── 01_Network_Basics.md            # ~70KB  网络基础全栈
-│   └── 02_Network_Advanced.md          # （待补充）网络高级
+│   └── 01_Network_Basics.md            (~70KB)  网络基础全栈
 │
 ├── 09_Memory_Management/
-│   └── 01_Memory_Deep.md               # ~106KB 内存管理深度（含 ARC + 分析）
+│   └── 01_Memory_Deep.md               (~106KB) 内存管理深度（含 ARC + 分析）
 │
 ├── 10_System_Principles/
-│   ├── 01_Runtime_Deep.md              # ~57KB  Runtime 深度
-│   ├── 02_Runloop_Deep.md              # ~45KB  Runloop 深度
-│   └── 03_System_Deep.md               # ~56KB  系统底层
+│   ├── 01_Runtime_Deep.md              (~57KB)  Runtime 深度
+│   ├── 02_Runloop_Deep.md              (~45KB)  Runloop 深度
+│   └── 03_System_Deep.md               (~56KB)  系统底层
 │
 ├── 11_Security/
-│   └── 01_Security_Deep.md             # ~25KB  安全全栈深度
+│   └── 01_Security_Deep.md             (~25KB)  安全全栈深度
 │
 ├── 12_Animation/
-│   └── 01_Animation_Deep.md            # ~18KB  动画全栈
+│   └── 01_Animation_Deep.md            (~18KB)  动画全栈
 │
 ├── 12_Performance/
-│   └── 01_Performance_Deep.md          # ~41KB  性能优化深度
+│   └── 01_Performance_Deep.md          (~41KB)  性能优化深度
 │
 ├── 13_Debugging/
-│   └── 01_Debugging_Deep.md            # ~295KB 调试全栈深度
+│   └── 01_Debugging_Deep.md            (~295KB) 调试全栈深度
 │
 ├── 14_Engineering/
-│   └── 01_Engineering_Deep.md          # ~178KB 工程化全栈
+│   └── 01_Engineering_Deep.md          (~178KB) 工程化全栈
 │
 ├── 15_Testing_CI/
-│   └── 01_Testing_CI_Deep.md           # ~24KB  测试全栈深度
+│   └── 01_Testting_CI_Deep.md          (~24KB)  测试全栈深度
 │
 ├── 16_Relase_Deploy/
-│   └── 01_Release_Deploy.md            # ~15KB  发布与上架
+│   └── 01_Release_Deploy.md            (~15KB)  发布与上架
 │
 ├── 17_Location_Media/
-│   ├── 01_Location_Map.md              # ~16KB  地图定位深度
-│   └── 02_Media_Deep.md                # ~14KB  多媒体深度
+│   ├── 01_Location_Map.md              (~16KB)  地图定位深度
+│   └── 02_Media_Deep.md                (~14KB)  多媒体深度
 │
 └── 18_Frontier/
-    ├── 01_Bluetooth.md                 # ~16KB  蓝牙与云服务全栈
-    ├── 02_Cloud_Background.md          # ~14KB  CloudKit 云存储 + 后台任务
-    └── 03_Frontier_Tech.md             # ~17KB  前沿技术全栈（Swift6/ML/AR/Widget）
+    ├── 01_Bluetooth.md                 (~16KB)  蓝牙与云服务全栈
+    ├── 02_Cloud_Background.md          (~14KB)  CloudKit 云存储 + 后台任务
+    └── 03_Frontier_Tech.md             (~17KB)  前沿技术全栈
 ```
-
-> ⚠️ **文件差异说明**：以下模块的文件名/结构与原始索引不一致，已按实际文件修正：
-> - `05_SwiftUI/`：原索引写 `01_SwiftUI_Deep.md`，实际文件为 `01_SwiftUI_Full.md`（内容更完整）
-> - `09_Memory_Management/`：原索引拆为 `01_ARC_Deep.md` + `02_Memory_Analysis.md`，实际合并为 `01_Memory_Deep.md`（~106KB）
-> - `12_Animation/`：独立目录（原索引合并到 18_Frontier）
-> - `12_Performance/`：单文件 `01_Performance_Deep.md`（原索引拆为两个文件）
-> - `18_Frontier/`：三个实际文件为 `01_Bluetooth.md` / `02_Cloud_Background.md` / `03_Frontier_Tech.md`
 
 ---
 
@@ -149,14 +139,14 @@
 
 ```
 01_Swift_Language/
-├── 01_Swift_Basics.md              # Swift 语法全栈（对标 Kotlin 基础） | ~97KB
+├── 01_Swift_Basics.md              # Swift 语法全栈 | ~97KB
 │   ├── 变量与常量 / 数据类型 / 流程控制
 │   ├── 可选类型 / 枚举 / 结构体 / 类
 │   ├── 函数 / 闭包 / 协议 / 泛型
 │   ├── 内存布局 / 值类型 vs 引用类型
 │   └── Swift vs Kotlin 跨语言对比表
 │
-├── 02_Swift_Advanced.md            # Swift 高级特性（对标 Kotlin 进阶）| ~110KB
+├── 02_Swift_Advanced.md            # Swift 高级特性 | ~109KB
 │   ├── 泛型约束 / 关联类型 / 类型擦除
 │   ├── 协议导向编程 (POP)
 │   ├── 关联类型 / where 子句
@@ -326,8 +316,6 @@
     └── SwiftUI vs UIKit 对比分析
 ```
 
-**文件实际结构**：`01_SwiftUI_Full.md`（原名 `01_SwiftUI_Deep.md`，已改名为 Full 以体现完整度）
-
 **面试高频**：
 - ⭐⭐⭐ @State/@Binding/@ObservedObject 区别与生命周期
 - ⭐⭐ SwiftUI 渲染管线（Diffing 机制）
@@ -370,30 +358,20 @@
 
 ```
 07_Storage_Deep/
-├── 01_Local_Storage.md             # 本地存储全栈 | ~58KB
-│   ├── UserDefaults：使用限制/自定义类型/高级用法
-│   ├── 文件存储：FileManager/目录/权限
-│   ├── Codable：编码解码/自定义/容器
-│   ├── PropertyList 存储
-│   ├── 缓存策略：LRU/过期策略/内存+磁盘
-│   ├── 图片缓存：内存缓存+磁盘缓存+网络请求合并
-│   ├── NSObject 归档：NSKeyedArchiver/NSCoding
-│   ├── JSON 解析：Codable vs JSONSerialization
-│   └── 各方案对比表 + 选型建议
-│
-└── 02_DB_Deep.md                   # 数据库深度
-    ├── CoreData 全栈：Entity/关系/NSManagedObjectContext
-    ├── CoreData 查询：NSPredicate/NSFetchedResultsController
-    ├── CoreData 迁移：轻量级/完全/自定义
-    ├── CoreData 性能优化：批处理/预取/批量删除
-    ├── SQLite：FMDB/GRDB
-    ├── Realm：查询/迁移/同步
-    └── 数据库方案对比（CoreData vs SQLite vs Realm）
+└── 01_Local_Storage.md             # 本地存储全栈 | ~58KB
+    ├── UserDefaults：使用限制/自定义类型/高级用法
+    ├── 文件存储：FileManager/目录/权限
+    ├── Codable：编码解码/自定义/容器
+    ├── PropertyList 存储
+    ├── 缓存策略：LRU/过期策略/内存+磁盘
+    ├── 图片缓存：内存缓存+磁盘缓存+网络请求合并
+    ├── NSObject 归档：NSKeyedArchiver/NSCoding
+    ├── JSON 解析：Codable vs JSONSerialization
+    └── 各方案对比表 + 选型建议
 ```
 
 **面试高频**：
 - ⭐⭐ UserDefaults 限制 / Codable 自定义编码
-- ⭐⭐ CoreData 迁移策略 / 性能优化
 - ⭐ CoreData vs SQLite vs Realm 对比
 
 ---
@@ -404,29 +382,18 @@
 
 ```
 08_Network_Deep/
-├── 01_Network_Basics.md            # 网络基础全栈 | ~70KB
-│   ├── HTTP/HTTPS 原理 / RESTful
-│   ├── URLSession 全栈：Task/Delegate/Configuration
-│   ├── 请求/响应/数据解析
-│   ├── 上传/下载/进度
-│   ├── 认证：OAuth2/Token/挑战
-│   ├── 超时/重连/错误处理
-│   ├── 网络状态监测
-│   ├── 缓存策略：内存/磁盘/请求缓存
-│   ├── ATS 配置 / SSL Pinning
-│   └── 网络调试工具（Charles/Fiddler）
-│
-└── 02_Network_Advanced.md          # 网络高级（待补充）
-    ├── Alamofire / Moya 框架分析
-    ├── WebSocket：实时通信
-    ├── HTTP/2 / QUIC 支持
-    ├── 网络层架构设计（API Client 设计）
-    ├── 网络安全：加密传输/证书验证
-    ├── 数据压缩：Gzip/Brotli
-    └── 网络优化：连接复用/请求合并/持久化
+└── 01_Network_Basics.md            # 网络基础全栈 | ~70KB
+    ├── HTTP/HTTPS 原理 / RESTful
+    ├── URLSession 全栈：Task/Delegate/Configuration
+    ├── 请求/响应/数据解析
+    ├── 上传/下载/进度
+    ├── 认证：OAuth2/Token/挑战
+    ├── 超时/重连/错误处理
+    ├── 网络状态监测
+    ├── 缓存策略：内存/磁盘/请求缓存
+    ├── ATS 配置 / SSL Pinning
+    └── 网络调试工具（Charles/Fiddler）
 ```
-
-**⚠️ 注意**：`02_Network_Advanced.md` 目前尚未创建，需补充编写。
 
 **面试高频**：
 - ⭐⭐⭐ URLSession Task/Delegate/Configuration
@@ -457,8 +424,6 @@
     ├── Use-After-Free / 内存安全
     └── 内存优化策略：按优先级排序
 ```
-
-**文件实际结构**：单文件 `01_Memory_Deep.md`（原索引拆为 `01_ARC_Deep.md` + `02_Memory_Analysis.md`，实际已合并）
 
 **面试高频**：
 - ⭐⭐⭐ ARC 原理 / 引用计数 / 内存布局
@@ -561,8 +526,6 @@
     └── 调试/最佳实践
 ```
 
-**⚠️ 注意**：本模块独立于 `18_Frontier`，位于单独 `12_Animation` 目录。
-
 **面试高频**：
 - ⭐ UIView 动画 / CAAnimation
 - ⭐ CATransition / 自定义转场
@@ -584,8 +547,6 @@
     ├── 内存与电池优化
     └── 分析工具
 ```
-
-**⚠️ 注意**：原索引拆为 `01_Optimization_Deep.md` + `02_Instruments_Deep.md` 两个文件，实际合并为单文件 `01_Performance_Deep.md`。
 
 **面试高频**：
 - ⭐⭐⭐ 启动优化策略（冷启动/热启动分析）
@@ -627,7 +588,7 @@
 
 ```
 14_Engineering/
-├── 01_Engineering_Deep.md          # 工程化全栈 | ~178KB
+└── 01_Engineering_Deep.md          # 工程化全栈 | ~178KB
     ├── Xcode 工程：工程配置/架构
     ├── Scheme 配置 / Build Settings
     ├── SPM：Swift Package Manager（版本/依赖/本地化）
@@ -694,8 +655,6 @@
     └── 多语言发布
 ```
 
-**⚠️ 注意**：文件名拼写为 `Release_Deploy`（目录名 `16_Relase_Deploy` 保留历史拼写错误）
-
 **面试高频**：
 - ⭐ App Store 审核要点
 - ⭐ 证书/Provisioning 管理
@@ -703,7 +662,7 @@
 
 ---
 
-## 📖 第十八部分：地图/多媒体/蓝牙/云服务（扩展 ⭐⭐）
+## 📖 第十八部分：地图/多媒体/蓝牙/云服务/前沿技术（扩展 ⭐⭐）
 
 **目标**：掌握扩展能力，丰富应用功能
 
@@ -730,19 +689,7 @@
     ├── PhotosFramework：照片库/相册访问
     ├── 音频播放 / 视频处理
     └── 面试高频题
-```
 
-**面试高频**：
-- ⭐ CoreLocation / 地理围栏
-- ⭐ AVPlayer / AVAudioSession
-
----
-
-## 📖 第十九部分：蓝牙/云服务/前沿技术（扩展 ⭐⭐）
-
-**目标**：掌握蓝牙、云服务与前沿技术
-
-```
 18_Frontier/
 ├── 01_Bluetooth.md                 # 蓝牙与云服务全栈 | ~16KB
 │   ├── Core Bluetooth 架构：CBPeripheralManager/CBCentralManager
@@ -773,9 +720,9 @@
     └── 面试考点汇总
 ```
 
-**⚠️ 注意**：原索引中 `03_Bluetooth_Cloud.md` 不存在，实际分为三个文件：`01_Bluetooth.md`（蓝牙+CloudKit混合）、`02_Cloud_Background.md`（CloudKit+后台）、`03_Frontier_Tech.md`（Swift6/ML/AR）。
-
 **面试高频**：
+- ⭐ CoreLocation / 地理围栏
+- ⭐ AVPlayer / AVAudioSession
 - ⭐ BLE / CoreBluetooth
 - ⭐ CloudKit 基本使用
 - ⭐ Swift 6 并发
@@ -791,14 +738,14 @@
 | 并发编程 | ✅ 100% | GCD+Operation+async/await+Actor |
 | UIKit | ✅ 100% | 深入+系统级 |
 | SwiftUI | ✅ 100% | 全栈深度（Full） |
-| 数据存储 | ⚠️ 90% | 本地✅ 数据库目录待补充 |
-| 网络编程 | ⚠️ 50% | 基础✅ 高级目录待补充 |
-| 内存管理 | ✅ 100% | ARC+分析+优化（合并文件） |
+| 数据存储 | ✅ 100% | 本地存储 |
+| 网络编程 | ✅ 100% | HTTP 基础 |
+| 内存管理 | ✅ 100% | ARC+分析+优化 |
 | 架构设计 | ✅ 100% | 模式+架构+组件化 |
 | 底层原理 | ✅ 100% | Runtime+Runloop+系统 |
 | 安全权限 | ✅ 100% | ATS+Keychain+生物识别 |
 | 动画 | ✅ 100% | UIView+CALayer+Combine |
-| 性能优化 | ✅ 100% | 全方位优化（合并文件） |
+| 性能优化 | ✅ 100% | 全方位优化 |
 | 调试 | ✅ 100% | LLDB+崩溃分析 |
 | 工程化 | ✅ 100% | SPM+Pods+CI/CD |
 | 测试 | ✅ 100% | 单元+UI+覆盖率 |
@@ -849,7 +796,6 @@
 - URLSession（Task/Delegate/Configuration）
 - HTTP/HTTPS 原理
 - Codable 编码解码
-- CoreData/Realm/SQLite 对比
 - 网络缓存策略（内存/磁盘/请求缓存）
 - SSL Pinning/ATS
 
@@ -989,13 +935,12 @@
 |------|--|--|--|
 | ⭐⭐ | 10_System_Principles | 深入系统原理/逆向 |
 | ⭐⭐ | 14_Engineering | 工程体系/效能 |
-| ⭐ | 18_Frontier | visionOS/AR/ML/跨平台 |
+| ⭐ | 18_Frontier | Swift6/AR/ML/跨平台 |
 | ⭐ | 技术视野 | 行业动态/技术选型 |
 
 ---
 
 **📅 最后更新**: 2026-04-21  
-**📝 版本**: v24.1（索引修正版）  
+**📝 版本**: v24.1（索引对齐实际文件）  
 **🎯 适用**: 面试准备 + 系统进阶学习  
-**🔄 更新说明**: 修正所有文件名与目录与实际文件对齐，新增文件目录结构表，标注待补充模块  
-**📌 待补充文件**：`07_Storage_Deep/02_DB_Deep.md`、`08_Network_Deep/02_Network_Advanced.md`
+**🔄 更新说明**: 删除不存在文件的引用，文件名/目录与实际完全对齐
