@@ -1,10 +1,10 @@
 import{_ as n,o as s,c as e,ae as p}from"./chunks/framework.Czhw_PXq.js";const g=JSON.parse('{"title":"Android 面试知识体系索引 📚","description":"","frontmatter":{},"headers":[],"relativePath":"INDEX_ANDROID.md","filePath":"INDEX_ANDROID.md"}'),i={name:"INDEX_ANDROID.md"};function l(t,a,o,r,d,c){return s(),e("div",null,[...a[0]||(a[0]=[p(`<h1 id="android-面试知识体系索引-📚" tabindex="-1">Android 面试知识体系索引 📚 <a class="header-anchor" href="#android-面试知识体系索引-📚" aria-label="Permalink to &quot;Android 面试知识体系索引 📚&quot;">​</a></h1><h2 id="🎯-学习目标" tabindex="-1">🎯 学习目标 <a class="header-anchor" href="#🎯-学习目标" aria-label="Permalink to &quot;🎯 学习目标&quot;">​</a></h2><ul><li>系统性掌握 Android 开发核心知识</li><li>高效准备 Android 面试</li><li>建立完整的知识图谱</li></ul><hr><h2 id="📖-知识模块目录-最终修正版" tabindex="-1">📖 知识模块目录（最终修正版） <a class="header-anchor" href="#📖-知识模块目录-最终修正版" aria-label="Permalink to &quot;📖 知识模块目录（最终修正版）&quot;">​</a></h2><h3 id="模块一-android-基础核心-foundation" tabindex="-1">模块一：Android 基础核心 (Foundation) <a class="header-anchor" href="#模块一-android-基础核心-foundation" aria-label="Permalink to &quot;模块一：Android 基础核心 (Foundation)&quot;">​</a></h3><p><strong>四大组件 + 生命周期 + 基础通信</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>01_Foundation/</span></span>
 <span class="line"><span>├── 01_四大组件.md                    # Activity/Service/BroadcastReceiver/ContentProvider</span></span>
 <span class="line"><span>├── 02_Activity_生命周期.md           # Activity 生命周期详解</span></span>
-<span class="line"><span>├── 03_Service_服务.md               # Service 启动方式、前台服务</span></span>
-<span class="line"><span>├── 04_BroadcastReceiver_广播.md     # 静态/动态注册、有序/无序</span></span>
-<span class="line"><span>├── 05_ContentProvider_内容提供者.md # 数据共享、UriMatcher</span></span>
-<span class="line"><span>├── 06_Intent_与_IntentFilter.md     # 显式/隐式 Intent、PendingIntent</span></span>
+<span class="line"><span>├── 03_Service 服务.md               # Service 启动方式、前台服务</span></span>
+<span class="line"><span>├── 04_BroadcastReceiver 广播.md     # 静态/动态注册、有序/无序</span></span>
+<span class="line"><span>├── 05_ContentProvider 内容提供者.md # 数据共享、UriMatcher</span></span>
+<span class="line"><span>├── 06_Intent 与 IntentFilter.md     # 显式/隐式 Intent、PendingIntent</span></span>
 <span class="line"><span>├── 07_启动模式与任务栈.md           # Standard/SingleTop/SingleTask/SingleInstance</span></span>
 <span class="line"><span>├── 08_组件间通信.md                 # Binder/Messenger/AIDL/事件总线</span></span>
 <span class="line"><span>└── 09_Fragment_详解.md              # Fragment 生命周期/事务/通信（四大组件之一）</span></span></code></pre></div><h3 id="模块二-ui-与布局-ui-layout" tabindex="-1">模块二：UI 与布局 (UI &amp; Layout) <a class="header-anchor" href="#模块二-ui-与布局-ui-layout" aria-label="Permalink to &quot;模块二：UI 与布局 (UI &amp; Layout)&quot;">​</a></h3><p><strong>View 系统 + 布局 + 动画 + 自定义 UI</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>02_UI/</span></span>
@@ -12,8 +12,8 @@ import{_ as n,o as s,c as e,ae as p}from"./chunks/framework.Czhw_PXq.js";const g
 <span class="line"><span>├── 02_View_绘制流程.md              # Measure/Layout/Draw</span></span>
 <span class="line"><span>├── 03_事件分发机制.md               # dispatchTouchEvent/onInterceptTouchEvent</span></span>
 <span class="line"><span>├── 04_自定义 View.md                # 自定义 View/ViewGroup 完整流程</span></span>
-<span class="line"><span>├── 05_RecyclerView_优化.md          # ViewHolder/预取/DiffUtil</span></span>
-<span class="line"><span>├── 06_Animations_动画.md            # View/Property 动画</span></span>
+<span class="line"><span>├── 05_RecyclerView 优化.md          # ViewHolder/预取/DiffUtil</span></span>
+<span class="line"><span>├── 06_Animations 动画.md            # View/Property 动画</span></span>
 <span class="line"><span>├── 07_Material_Design.md            # Material Components</span></span>
 <span class="line"><span>├── 08_Adapter 模式.md               # Adapter 设计模式</span></span>
 <span class="line"><span>└── 09_响应式布局.md                 # 多屏幕适配、折叠屏</span></span></code></pre></div><h3 id="模块三-kotlin-核心-kotlin-core" tabindex="-1">模块三：Kotlin 核心 (Kotlin Core) <a class="header-anchor" href="#模块三-kotlin-核心-kotlin-core" aria-label="Permalink to &quot;模块三：Kotlin 核心 (Kotlin Core)&quot;">​</a></h3><p><strong>语言特性 + 协程 + Flow（统一在这里）</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>03_Kotlin/</span></span>
@@ -26,7 +26,7 @@ import{_ as n,o as s,c as e,ae as p}from"./chunks/framework.Czhw_PXq.js";const g
 <span class="line"><span>├── 07_密封类.md                     # Sealed Class vs Enum</span></span>
 <span class="line"><span>├── 08_内联函数.md                   # inline/noinline/crossinline/reified</span></span>
 <span class="line"><span>├── 09_协程详解.md                   # launch/async/Scope/Dispatcher</span></span>
-<span class="line"><span>├── 10_Suspend_函数.md               # 挂起与恢复</span></span>
+<span class="line"><span>├── 10_Suspend 函数.md               # 挂起与恢复</span></span>
 <span class="line"><span>├── 11_CoroutineScope.md             # SupervisorJob/结构化并发</span></span>
 <span class="line"><span>└── 12_Flow 操作符.md                # StateFlow/SharedFlow/操作符</span></span></code></pre></div><h3 id="模块四-异步与多线程-async-threading" tabindex="-1">模块四：异步与多线程 (Async &amp; Threading) <a class="header-anchor" href="#模块四-异步与多线程-async-threading" aria-label="Permalink to &quot;模块四：异步与多线程 (Async &amp; Threading)&quot;">​</a></h3><p><strong>Handler + 线程池 + 协程应用场景</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>04_Async/</span></span>
 <span class="line"><span>├── 01_线程基础.md                   # Thread/Runnable/线程状态</span></span>
@@ -52,15 +52,15 @@ import{_ as n,o as s,c as e,ae as p}from"./chunks/framework.Czhw_PXq.js";const g
 <span class="line"><span>├── 07_证书与加密.md              # HTTPS/SSL Pinning</span></span>
 <span class="line"><span>└── 08_图片加载_Glide.md          # Glide 缓存/占位</span></span></code></pre></div><h3 id="模块七-架构模式-architecture" tabindex="-1">模块七：架构模式 (Architecture) <a class="header-anchor" href="#模块七-架构模式-architecture" aria-label="Permalink to &quot;模块七：架构模式 (Architecture)&quot;">​</a></h3><p><strong>MVVM/MVP/MVI + Repository 模式（架构设计层面）</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>07_Architecture/</span></span>
 <span class="line"><span>├── 01_MVVM_架构.md               # ViewModel+LiveData/Flow 在架构中的应用</span></span>
-<span class="line"><span>├── 02_MVP_架构.md               # Presenter 设计</span></span>
-<span class="line"><span>├── 03_MVI_架构.md               # State/Intent/Event/单向数据流</span></span>
-<span class="line"><span>├── 04_VIPER_架构.md             # Viper 分层</span></span>
-<span class="line"><span>├── 05_Repository_模式.md        # 数据源抽象/缓存策略</span></span>
+<span class="line"><span>├── 02_MVP 架构.md               # Presenter 设计</span></span>
+<span class="line"><span>├── 03_MVI 架构.md               # State/Intent/Event/单向数据流</span></span>
+<span class="line"><span>├── 04_VIPER 架构.md             # Viper 分层</span></span>
+<span class="line"><span>├── 05_Repository 模式.md        # 数据源抽象/缓存策略</span></span>
 <span class="line"><span>├── 06_Clean_Architecture.md     # 分层/依赖倒置</span></span>
 <span class="line"><span>└── 07_架构对比.md               # MVC/MVP/MVVM/MVI 对比选择</span></span></code></pre></div><h3 id="模块八-依赖注入-dependency-injection" tabindex="-1">模块八：依赖注入 (Dependency Injection) <a class="header-anchor" href="#模块八-依赖注入-dependency-injection" aria-label="Permalink to &quot;模块八：依赖注入 (Dependency Injection)&quot;">​</a></h3><p><strong>Hilt/Dagger 2/Koin（完整的 DI 框架都放在这里）</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>08_DI/</span></span>
 <span class="line"><span>├── 01_DI 基础概念.md            # 依赖倒置/IoC/三种注入方式</span></span>
 <span class="line"><span>├── 02_Hilt 框架.md              # @HiltAndroidApp/@Module/@Inject</span></span>
-<span class="line"><span>├── 03_Dagger_2.md              # Component/Module/SubComponent</span></span>
+<span class="line"><span>├── 03_Dagger 2.md              # Component/Module/SubComponent</span></span>
 <span class="line"><span>├── 04_Koin.md                  # DSL 语法/作用域</span></span>
 <span class="line"><span>├── 05_作用域管理.md            # Singleton/Scoped/Factory</span></span>
 <span class="line"><span>└── 06_测试与模拟.md            # DI 测试/Mock 注入</span></span></code></pre></div><h3 id="模块九-jetpack-组件-jetpack" tabindex="-1">模块九：Jetpack 组件 (Jetpack) <a class="header-anchor" href="#模块九-jetpack-组件-jetpack" aria-label="Permalink to &quot;模块九：Jetpack 组件 (Jetpack)&quot;">​</a></h3><p><strong>官方 Jetpack 组件（Lifecycle、ViewModel、LiveData 等）- 只放组件 API 使用</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>09_Jetpack/</span></span>
@@ -92,30 +92,30 @@ import{_ as n,o as s,c as e,ae as p}from"./chunks/framework.Czhw_PXq.js";const g
 <span class="line"><span>├── 07_动画性能.md              # 硬件加速</span></span>
 <span class="line"><span>├── 08_数据库优化.md            # Room 查询优化</span></span>
 <span class="line"><span>├── 09_渲染优化.md              # GPU 渲染/Systrace</span></span>
-<span class="line"><span>└── 10_Profiler_工具.md         # Android Profiler/Perfetto</span></span></code></pre></div><h3 id="模块十三-测试与调试-testing" tabindex="-1">模块十三：测试与调试 (Testing) <a class="header-anchor" href="#模块十三-测试与调试-testing" aria-label="Permalink to &quot;模块十三：测试与调试 (Testing)&quot;">​</a></h3><p><strong>单元测试 + UI 测试 + 调试工具</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>13_Testing/</span></span>
+<span class="line"><span>└── 10_Profiler 工具.md         # Android Profiler/Perfetto</span></span></code></pre></div><h3 id="模块十三-测试与调试-testing" tabindex="-1">模块十三：测试与调试 (Testing) <a class="header-anchor" href="#模块十三-测试与调试-testing" aria-label="Permalink to &quot;模块十三：测试与调试 (Testing)&quot;">​</a></h3><p><strong>单元测试 + UI 测试 + 调试工具</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>13_Testing/</span></span>
 <span class="line"><span>├── 01_单元测试_JUnit.md</span></span>
 <span class="line"><span>├── 02_模拟_Mockk.md            # Mock/Mockk</span></span>
 <span class="line"><span>├── 03_UI 测试_Espresso.md      # Espresso UI 测试</span></span>
 <span class="line"><span>├── 04_自动化测试.md            # 自动化测试框架</span></span>
-<span class="line"><span>├── 05_Logcat_调试.md</span></span>
-<span class="line"><span>├── 06_AndroidStudio_调试.md</span></span>
+<span class="line"><span>├── 05_Logcat 调试.md</span></span>
+<span class="line"><span>├── 06_AndroidStudio 调试.md</span></span>
 <span class="line"><span>├── 07_性能分析.md</span></span>
 <span class="line"><span>└── 08_内存泄漏_LeakCanary.md</span></span></code></pre></div><h3 id="模块十四-android-系统-system" tabindex="-1">模块十四：Android 系统 (System) <a class="header-anchor" href="#模块十四-android-系统-system" aria-label="Permalink to &quot;模块十四：Android 系统 (System)&quot;">​</a></h3><p><strong>系统原理 + Binder + AMS/WMS/PMS</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>14_System/</span></span>
-<span class="line"><span>├── 01_Zygote_进程.md</span></span>
+<span class="line"><span>├── 01_Zygote 进程.md</span></span>
 <span class="line"><span>├── 02_SystemServer.md</span></span>
 <span class="line"><span>├── 03_AMS_PMS_WMS.md          # 三大服务</span></span>
-<span class="line"><span>├── 04_Binder_机制.md           # Binder IPC/AIDL 底层</span></span>
-<span class="line"><span>├── 05_AIDL_跨进程.md           # 跨进程通信</span></span>
+<span class="line"><span>├── 04_Binder 机制.md           # Binder IPC/AIDL 底层</span></span>
+<span class="line"><span>├── 05_AIDL 跨进程.md           # 跨进程通信</span></span>
 <span class="line"><span>├── 06_启动流程.md              # Bootloader→Kernel→Init→Zygote</span></span>
 <span class="line"><span>├── 07_包安装流程.md            # PMS 解析 APK/签名验证</span></span>
 <span class="line"><span>├── 08_通知机制.md              # NotificationChannel</span></span>
 <span class="line"><span>├── 09_权限系统.md              # 运行时权限</span></span>
 <span class="line"><span>└── 10_安全机制.md              # SELinux/沙箱/反调试</span></span></code></pre></div><h3 id="模块十五-模块化与工程化-engineering" tabindex="-1">模块十五：模块化与工程化 (Engineering) <a class="header-anchor" href="#模块十五-模块化与工程化-engineering" aria-label="Permalink to &quot;模块十五：模块化与工程化 (Engineering)&quot;">​</a></h3><p><strong>Gradle + 模块化 + CI/CD</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>15_Engineering/</span></span>
-<span class="line"><span>├── 01_Gradle_基础.md</span></span>
+<span class="line"><span>├── 01_Gradle 基础.md</span></span>
 <span class="line"><span>├── 02_Groovy_Kotlin_DSL.md</span></span>
 <span class="line"><span>├── 03_模块化架构.md            # 模块划分/依赖管理</span></span>
 <span class="line"><span>├── 04_动态特性.md              # Dynamic Feature Module</span></span>
-<span class="line"><span>├── 05_ARC_插件.md</span></span>
+<span class="line"><span>├── 05_ARC 插件.md</span></span>
 <span class="line"><span>├── 06_CI_CD.md                # GitHub Actions/GitLab CI</span></span>
 <span class="line"><span>├── 07_代码规范.md              # Kotlin Style Guide</span></span>
 <span class="line"><span>├── 08_版本管理.md              # Semantic Versioning</span></span>
