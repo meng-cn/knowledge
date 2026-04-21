@@ -1,0 +1,697 @@
+[
+    {
+        "docs_category": "00-android",
+        "docs_chapters": [
+            {
+                "docs_chapter": "01_Foundation",
+                "files": [
+                    "01_四大组件.md",
+                    "02_Activity_生命周期.md",
+                    "03_Service 服务.md",
+                    "04_BroadcastReceiver 广播.md",
+                    "05_ContentProvider 内容提供者.md",
+                    "06_Intent 与 IntentFilter.md",
+                    "07_启动模式与任务栈.md",
+                    "08_组件间通信.md",
+                    "09_Fragment_详解.md"
+                ]
+            },
+            {
+                "docs_chapter": "02_UI",
+                "files": [
+                    "01_View 绘制流程.md",
+                    "02_常用布局.md",
+                    "03_事件分发机制.md",
+                    "04_自定义 View.md",
+                    "05_RecyclerView 优化.md",
+                    "06_Animations 动画.md",
+                    "07_Material_Design.md",
+                    "08_Adapter 模式.md",
+                    "09_响应式布局.md"
+                ]
+            },
+            {
+                "docs_chapter": "03_Kotlin",
+                "files": [
+                    "01_基础语法.md",
+                    "02_空安全.md",
+                    "03_扩展函数.md",
+                    "04_高阶函数.md",
+                    "05_Lambda 表达式.md",
+                    "06_委托属性.md",
+                    "07_密封类.md",
+                    "08_内联函数.md",
+                    "09_协程详解.md",
+                    "10_Suspend 函数.md",
+                    "11_CoroutineScope.md",
+                    "12_Flow 操作符.md",
+                    "Kotlin 高级面试知识点汇总.md"
+                ]
+            },
+            {
+                "docs_chapter": "04_Async",
+                "files": [
+                    "01_Kotlin 协程详解.md",
+                    "02_Handler 机制详解.md",
+                    "03_线程基础.md",
+                    "04_线程池.md",
+                    "05_AsyncTask 废弃替代.md",
+                    "06_协程应用场景.md",
+                    "07_线程通信.md"
+                ]
+            },
+            {
+                "docs_chapter": "05_Storage",
+                "files": [
+                    "01_Room 与数据存储.md",
+                    "02_SharedPreferences.md",
+                    "03_SQLite 数据库.md",
+                    "04_DataStore.md",
+                    "05_文件存储.md",
+                    "06_网络缓存.md",
+                    "07_内存管理.md"
+                ]
+            },
+            {
+                "docs_chapter": "06_Network",
+                "files": [
+                    "01_Retrofit 与 OkHttp 详解.md",
+                    "02_HTTP 基础.md",
+                    "03_Volley.md",
+                    "04_WebSocket.md",
+                    "05_网络优化.md",
+                    "06_证书与加密.md",
+                    "07_图片加载_Glide.md",
+                    "08_OkHttp 底层.md"
+                ]
+            },
+            {
+                "docs_chapter": "07_Architecture",
+                "files": [
+                    "01_MVVM 架构与 Hilt 依赖注入.md",
+                    "02_MVP 架构.md",
+                    "03_MVI 架构.md",
+                    "04_VIPER 架构.md",
+                    "05_Repository 模式.md",
+                    "06_Clean_Architecture.md",
+                    "07_架构对比.md"
+                ]
+            },
+            {
+                "docs_chapter": "08_DI",
+                "files": [
+                    "01_DI 基础概念.md",
+                    "02_Hilt 框架.md",
+                    "03_Dagger 2.md",
+                    "04_Koin.md",
+                    "05_作用域管理.md",
+                    "06_测试与模拟.md"
+                ]
+            },
+            {
+                "docs_chapter": "09_Jetpack",
+                "files": [
+                    "01_Jetpack 组件全家桶.md",
+                    "01_Lifecycle.md",
+                    "02_Navigation.md",
+                    "03_WorkManager.md",
+                    "04_ViewModel.md",
+                    "05_LiveData.md",
+                    "06_SavedStateHandle.md",
+                    "07_Startup.md",
+                    "08_SafeArgs.md",
+                    "08_SplashScreen.md",
+                    "09_Paging.md"
+                ]
+            },
+            {
+                "docs_chapter": "10_DataBinding",
+                "files": [
+                    "01_ViewBinding.md",
+                    "02_DataBinding.md",
+                    "03_双向绑定.md",
+                    "04_BindingAdapter.md",
+                    "05_表达式语言.md"
+                ]
+            },
+            {
+                "docs_chapter": "11_Compat",
+                "files": [
+                    "01_AppCompatActivity.md",
+                    "02_AppCompatDelegate.md",
+                    "03_深色模式适配.md",
+                    "04_Toolbar.md",
+                    "05_多屏幕适配.md"
+                ]
+            },
+            {
+                "docs_chapter": "12_Performance",
+                "files": [
+                    "01_Android 性能优化全攻略.md",
+                    "02_内存优化.md",
+                    "03_布局优化.md",
+                    "04_网络优化.md",
+                    "05_电量优化.md",
+                    "06_包体积优化.md",
+                    "07_动画性能.md",
+                    "08_数据库优化.md",
+                    "09_渲染优化.md",
+                    "10_Profiler 工具.md"
+                ]
+            },
+            {
+                "docs_chapter": "13_Testing",
+                "files": [
+                    "01_单元测试_JUnit.md",
+                    "02_模拟_Mockk.md",
+                    "03_UI 测试_Espresso.md",
+                    "04_自动化测试.md",
+                    "05_Logcat 调试.md",
+                    "06_AndroidStudio 调试.md",
+                    "07_性能分析.md",
+                    "08_内存泄漏_LeakCanary.md"
+                ]
+            },
+            {
+                "docs_chapter": "14_System",
+                "files": [
+                    "01_Zygote 进程.md",
+                    "02_SystemServer.md",
+                    "03_AMS_PMS_WMS.md",
+                    "04_Binder 机制.md",
+                    "05_AIDL 跨进程.md",
+                    "06_启动流程.md",
+                    "07_包安装流程.md",
+                    "08_通知机制.md",
+                    "09_权限系统.md",
+                    "10_安全机制.md"
+                ]
+            },
+            {
+                "docs_chapter": "15_Engineering",
+                "files": [
+                    "01_Gradle 基础.md",
+                    "02_Groovy_Kotlin_DSL.md",
+                    "03_模块化架构.md",
+                    "04_动态特性.md",
+                    "05_ARC 插件.md",
+                    "06_CI_CD.md",
+                    "07_代码规范.md",
+                    "08_版本管理.md",
+                    "09_埋点统计.md",
+                    "10_崩溃统计.md"
+                ]
+            },
+            {
+                "docs_chapter": "16_NewFeatures",
+                "files": [
+                    "01_Compose_Jetpack.md",
+                    "02_Compose_Multiplatform.md",
+                    "03_KMP_多平台.md",
+                    "04_Android_13_新特性.md",
+                    "05_折叠屏适配.md",
+                    "06_手势导航.md",
+                    "07_隐私权限.md",
+                    "08_5G 优化.md"
+                ]
+            }
+        ]
+    },
+    {
+        "docs_category": "01-ios",
+        "docs_chapters": [
+            {
+                "docs_chapter": "01_Swift_Language",
+                "files": [
+                    "01_Swift_Basics.md",
+                    "02_Swift_Advanced.md",
+                    "03_Swift_OC_Bridge.md"
+                ]
+            },
+            {
+                "docs_chapter": "02_Concurrency",
+                "files": [
+                    "01_GCD_Operation.md",
+                    "02_Swift_Concurrency.md",
+                    "03_Concurrency_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "03_App_Core",
+                "files": [
+                    "01_iOS_Basics.md"
+                ]
+            },
+            {
+                "docs_chapter": "04_UI_Deep",
+                "files": [
+                    "01_View_Layout.md",
+                    "02_UIKit_Controls.md",
+                    "03_UI_System_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "05_SwiftUI",
+                "files": [
+                    "01_SwiftUI_Full.md"
+                ]
+            },
+            {
+                "docs_chapter": "06_Architecture",
+                "files": [
+                    "01_Architecture_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "07_Storage_Deep",
+                "files": [
+                    "01_Local_Storage.md"
+                ]
+            },
+            {
+                "docs_chapter": "08_Network_Deep",
+                "files": [
+                    "01_Network_Basics.md"
+                ]
+            },
+            {
+                "docs_chapter": "09_Memory_Management",
+                "files": [
+                    "01_Memory_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "10_System_Principles",
+                "files": [
+                    "01_Runtime_Deep.md",
+                    "02_Runloop_Deep.md",
+                    "03_System_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "11_Security",
+                "files": [
+                    "01_Security_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "12_Animation",
+                "files": [
+                    "01_Animation_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "12_Performance",
+                "files": [
+                    "01_Performance_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "13_Debugging",
+                "files": [
+                    "01_Debugging_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "14_Engineering",
+                "files": [
+                    "01_Engineering_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "15_Testing_CI",
+                "files": [
+                    "01_Testing_CI_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "16_Relase_Deploy",
+                "files": [
+                    "01_Release_Deploy.md"
+                ]
+            },
+            {
+                "docs_chapter": "17_Location_Media",
+                "files": [
+                    "01_Location_Map.md",
+                    "02_Media_Deep.md"
+                ]
+            },
+            {
+                "docs_chapter": "18_Frontier",
+                "files": [
+                    "01_Bluetooth.md",
+                    "02_Cloud_Background.md",
+                    "03_Frontier_Tech.md"
+                ]
+            }
+        ]
+    },
+    {
+        "docs_category": "02-opencv",
+        "docs_chapters": [
+            {
+                "docs_chapter": "01-基础篇",
+                "files": [
+                    "ch01-introduction.md",
+                    "ch02-core-structures.md",
+                    "ch03-pixel-operations.md",
+                    "ch04-geometric-transforms.md"
+                ]
+            },
+            {
+                "docs_chapter": "02-图像处理",
+                "files": [
+                    "ch05-filtering.md",
+                    "ch06-morphology.md",
+                    "ch07-histograms.md",
+                    "ch08-thresholding.md",
+                    "ch09-convolution-frequency.md"
+                ]
+            },
+            {
+                "docs_chapter": "03-特征与匹配",
+                "files": [
+                    "ch10-edge-corner-detection.md",
+                    "ch11-feature-detection.md",
+                    "ch12-feature-matching.md",
+                    "ch13-template-matching.md"
+                ]
+            },
+            {
+                "docs_chapter": "04-目标检测与跟踪",
+                "files": [
+                    "ch14-haar-hog.md",
+                    "ch15-dnn-detection.md",
+                    "ch16-optical-flow.md",
+                    "ch17-object-tracking.md"
+                ]
+            },
+            {
+                "docs_chapter": "05-相机与三维",
+                "files": [
+                    "ch18-camera-calibration.md",
+                    "ch19-stereo-vision.md",
+                    "ch20-pnp-pose-estimation.md"
+                ]
+            },
+            {
+                "docs_chapter": "06-机器学习",
+                "files": [
+                    "ch21-knn-svm-dt.md",
+                    "ch22-kmeans-quantization.md",
+                    "ch23-hog-pedestrian.md"
+                ]
+            },
+            {
+                "docs_chapter": "07-高级与实战",
+                "files": [
+                    "ch24-dnn-deep.md",
+                    "ch25-video-processing.md",
+                    "ch26-gui-interaction.md",
+                    "ch27-cuda-acceleration.md",
+                    "ch28-cases.md"
+                ]
+            },
+            {
+                "docs_chapter": "08-附录",
+                "files": [
+                    "appendix-api-reference.md",
+                    "appendix-coordinates-formulas.md",
+                    "appendix-faq.md",
+                    "appendix-resources.md"
+                ]
+            }
+        ]
+    },
+    {
+        "docs_category": "03-vulkan",
+        "docs_chapters": [
+            {
+                "docs_chapter": "01-Vulkan 核心概念",
+                "files": [
+                    "ch01-architecture.md",
+                    "ch02-initialization.md",
+                    "ch03-swap-chain.md",
+                    "ch04-render-pipeline.md",
+                    "ch05-resources.md",
+                    "ch06-commands-sync.md"
+                ]
+            },
+            {
+                "docs_chapter": "02-中级 Vulkan",
+                "files": [
+                    "ch07-descriptors.md",
+                    "ch08-depth-template.md",
+                    "ch09-samplers-textures.md",
+                    "ch10-draw-calls.md",
+                    "ch11-vertex-shader.md",
+                    "ch12-fragment-shader.md",
+                    "ch13-pipeline-state.md",
+                    "ch14-framebuffer.md",
+                    "ch15-multisampling.md"
+                ]
+            },
+            {
+                "docs_chapter": "03-高级 Vulkan",
+                "files": [
+                    "ch16-render-targets.md",
+                    "ch17-instancing.md",
+                    "ch19-dynamic-state.md",
+                    "ch20-render-splitting.md",
+                    "ch21-shadow-mapping.md",
+                    "ch22-lighting.md",
+                    "ch23-skybox.md",
+                    "ch24-lighting.md",
+                    "ch25-image-formats.md"
+                ]
+            },
+            {
+                "docs_chapter": "04-Vulkan 实战",
+                "files": [
+                    "ch26-memory-advanced.md",
+                    "ch27-events-markers.md",
+                    "ch28-render-graph.md",
+                    "ch29-async-compute.md",
+                    "ch30-compute-shader.md"
+                ]
+            },
+            {
+                "docs_chapter": "05-附录",
+                "files": [
+                    "appendix-api.md",
+                    "appendix-enums.md",
+                    "appendix-install.md",
+                    "appendix-resources.md"
+                ]
+            }
+        ]
+    },
+    {
+        "docs_category": "04-harmonyos",
+        "docs_chapters": [
+            {
+                "docs_chapter": "01_Language",
+                "files": [
+                    "01_ArkTS 概述.md",
+                    "02_基础语法.md",
+                    "03_装饰器.md",
+                    "04_空安全.md",
+                    "05_类与接口.md",
+                    "06_泛型与 Record.md",
+                    "07_模块系统.md",
+                    "08_闭包与作用域.md",
+                    "09_异步编程.md",
+                    "10_数据结构.md",
+                    "11_与 C++ 交互.md",
+                    "12_性能最佳实践.md"
+                ]
+            },
+            {
+                "docs_chapter": "02_ArkUI",
+                "files": [
+                    "01_声明式 UI 范式.md",
+                    "02_常用布局容器.md",
+                    "03_布局约束与单位.md",
+                    "04_内置组件.md",
+                    "05_样式与属性.md",
+                    "06_自定义组件.md",
+                    "07_组件参数传递.md",
+                    "08_动画系统.md",
+                    "09_断点与多端适配.md",
+                    "10_沉浸式状态栏.md",
+                    "11_列表渲染.md",
+                    "12_渲染三棵树原理.md",
+                    "13_XComponent 渲染.md",
+                    "14_弹窗与对话框.md"
+                ]
+            },
+            {
+                "docs_chapter": "03_StateManagement",
+                "files": [
+                    "01_状态驱动机制.md",
+                    "02_@State 本地状态.md",
+                    "03_@Prop 单向数据流.md",
+                    "04_@Link 双向绑定.md",
+                    "05_@Provide @Consume 跨树.md",
+                    "06_@ObjectLink 深度绑定.md",
+                    "07_@Watch 状态监听.md",
+                    "08_AppStorage 全局单例.md",
+                    "09_LocalStorage 页面级存储.md",
+                    "10_PersistentStorage 持久化.md",
+                    "11_状态管理 V2.md",
+                    "12_单一数据源原则.md",
+                    "13_复杂状态管理方案.md"
+                ]
+            },
+            {
+                "docs_chapter": "04_StageModel",
+                "files": [
+                    "01_Application 生命周期.md",
+                    "02_UIAbility 概述.md",
+                    "03_UIAbility 生命周期.md",
+                    "04_UIAbility 启动模式.md",
+                    "05_ExtensionAbility.md",
+                    "06_生命周期管理.md",
+                    "07_Want 意图.md",
+                    "08_Context 上下文.md",
+                    "09_页面路由 Navigation.md",
+                    "10_页面路由 Router.md",
+                    "11_跨 Ability 通信.md",
+                    "12_事件总线与订阅.md",
+                    "13_深链接 Deep Link.md",
+                    "14_多窗口支持.md",
+                    "15_应用打包发布.md"
+                ]
+            },
+            {
+                "docs_chapter": "05_Concurrency",
+                "files": [
+                    "01_线程模型 Actor.md",
+                    "02_TaskPool 任务池.md",
+                    "03_Worker 长时任务.md",
+                    "04_UI 线程与工作线程.md",
+                    "05_http 模块.md",
+                    "06_rcp 网络库.md",
+                    "07_并发请求处理.md",
+                    "08_WebSocket 长连接.md",
+                    "09_大文件传输.md",
+                    "10_Sendable 对象.md",
+                    "11_网络安全与 HTTPS.md",
+                    "12_socket 通信.md"
+                ]
+            },
+            {
+                "docs_chapter": "06_Storage",
+                "files": [
+                    "01_Preferences 首选项.md",
+                    "02_KV-Store 键值数据库.md",
+                    "03_RDB 关系型数据库.md",
+                    "04_文件存储.md",
+                    "05_AssetStore 安全存储.md",
+                    "06_缓存机制.md",
+                    "07_数据加密.md",
+                    "08_存储方案选择.md"
+                ]
+            },
+            {
+                "docs_chapter": "07_Distributed",
+                "files": [
+                    "01_分布式软总线.md",
+                    "02_分布式数据管理.md",
+                    "03_分布式设备虚拟化.md",
+                    "04_分布式相机.md",
+                    "05_分布式相册.md",
+                    "06_分布式任务管理.md",
+                    "07_分布式文件系统.md",
+                    "08_分布式设备能力管理.md",
+                    "09_原子化服务.md"
+                ]
+            },
+            {
+                "docs_chapter": "08_Permissions",
+                "files": [
+                    "01_TokenID 与访问控制.md",
+                    "01_权限模型概述.md",
+                    "02_权限分类.md",
+                    "02_权限声明与授权.md",
+                    "03_应用安全模型.md",
+                    "03_权限声明流程.md",
+                    "04_运行时权限申请.md",
+                    "04_隐私数据保护.md",
+                    "05_后台任务管理.md",
+                    "05_常见权限.md",
+                    "06_应用沙箱.md",
+                    "06_应用签名与发布.md",
+                    "07_安全存储.md",
+                    "07_安全通信.md",
+                    "08_权限适配最佳实践.md",
+                    "08_签名与证书.md",
+                    "09_安全加固.md",
+                    "09_安全开发 checklist.md"
+                ]
+            },
+            {
+                "docs_chapter": "09_Performance",
+                "files": [
+                    "01_启动优化.md",
+                    "01_应用启动优化.md",
+                    "02_渲染性能优化.md",
+                    "03_内存优化.md",
+                    "04_列表性能优化.md",
+                    "05_网络优化.md",
+                    "06_包体积优化.md",
+                    "07_动画性能.md",
+                    "08_电池优化.md",
+                    "09_卡顿检测与优化.md",
+                    "10_Profiler 工具.md"
+                ]
+            },
+            {
+                "docs_chapter": "10_Engineering",
+                "files": [
+                    "01_Hvigor 构建系统.md",
+                    "02_项目结构.md",
+                    "03_HAR HSP HAP 包.md",
+                    "04_模块化架构.md",
+                    "05_多环境配置.md",
+                    "06_代码混淆.md",
+                    "07_多端构建与适配.md",
+                    "08_国际化.md",
+                    "09_测试框架 Hypium.md",
+                    "10_自动化构建 CI.md",
+                    "11_源码保护.md",
+                    "12_上架与发布.md"
+                ]
+            },
+            {
+                "docs_chapter": "11_System",
+                "files": [
+                    "01_鸿蒙内核.md",
+                    "02_系统启动流程.md",
+                    "03_进程与线程管理.md",
+                    "04_安全模型.md",
+                    "05_系统服务.md",
+                    "06_通知系统.md",
+                    "07_广播与事件.md",
+                    "08_NAPI 扩展开发.md",
+                    "09_底层渲染机制.md",
+                    "10_新特性探索.md"
+                ]
+            },
+            {
+                "docs_chapter": "12_NewFeatures",
+                "files": [
+                    "01_状态管理 V2 深度.md",
+                    "02_原子化服务进阶.md",
+                    "03_鸿蒙 AI 能力.md",
+                    "04_鸿蒙 6.0 新特性.md",
+                    "06_车载鸿蒙.md",
+                    "07_智能家居生态.md",
+                    "08_鸿蒙生态展望.md",
+                    "05_折叠屏\\平板适配.md"
+                ]
+            }
+        ]
+    }
+]
