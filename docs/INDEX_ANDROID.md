@@ -101,7 +101,7 @@
 **MVVM/MVP/MVI + Repository 模式（架构设计层面）**
 ```
 07_Architecture/
-├── 01_MVVM_架构.md               # ViewModel+LiveData/Flow 在架构中的应用
+├── 01_MVVM 架构与 Hilt 依赖注入.md               # ViewModel+LiveData/Flow 在架构中的应用
 ├── 02_MVP 架构.md               # Presenter 设计
 ├── 03_MVI 架构.md               # State/Intent/Event/单向数据流
 ├── 04_VIPER 架构.md             # Viper 分层
@@ -163,7 +163,7 @@
 **启动/内存/布局/网络/包体积优化**
 ```
 12_Performance/
-├── 01_启动优化.md              # 冷启动/异步初始化
+├── 01_Android 性能优化全攻略.md              # 冷启动/异步初始化
 ├── 02_内存优化.md              # LeakCanary/内存泄漏检测
 ├── 03_布局优化.md              # 减少层级/过度绘制
 ├── 04_网络优化.md              # 连接复用/请求合并
