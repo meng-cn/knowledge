@@ -38,7 +38,7 @@ def update_index():
                     for root, dirs, files in os.walk(sub_item_path):
                         for file in files:
                             if file.endswith('.md'):
-                                rel_path = os.path.relpath(os.path.join(root, file), sub_item_path)
+                                rel_path = os.path.relpath(os.path.join(root, file), os.path.dirname(docs_dir))
                                 chapter_files.append(rel_path)
                     
                     # Only add chapter if it has md files or if we want to record empty chapters? 
@@ -54,6 +54,12 @@ def update_index():
 
     # Sort the data for consistency
     index_data.sort(key=lambda x: x['docs_category'])
+    import datetime
+    version = int(datetime.datetime.now().timestamp())
+    index_data = {
+        "version": version,
+        "data": index_data
+    }
 
     # Write to JSON file
     output_file = os.path.join(os.path.dirname(docs_dir), 'index.json')
