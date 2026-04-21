@@ -51,7 +51,7 @@ import{_ as n,o as s,c as e,ae as p}from"./chunks/framework.Czhw_PXq.js";const g
 <span class="line"><span>├── 06_网络优化.md                # 请求合并/数据压缩</span></span>
 <span class="line"><span>├── 07_证书与加密.md              # HTTPS/SSL Pinning</span></span>
 <span class="line"><span>└── 08_图片加载_Glide.md          # Glide 缓存/占位</span></span></code></pre></div><h3 id="模块七-架构模式-architecture" tabindex="-1">模块七：架构模式 (Architecture) <a class="header-anchor" href="#模块七-架构模式-architecture" aria-label="Permalink to &quot;模块七：架构模式 (Architecture)&quot;">​</a></h3><p><strong>MVVM/MVP/MVI + Repository 模式（架构设计层面）</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>07_Architecture/</span></span>
-<span class="line"><span>├── 01_MVVM_架构.md               # ViewModel+LiveData/Flow 在架构中的应用</span></span>
+<span class="line"><span>├── 01_MVVM 架构与 Hilt 依赖注入.md               # ViewModel+LiveData/Flow 在架构中的应用</span></span>
 <span class="line"><span>├── 02_MVP 架构.md               # Presenter 设计</span></span>
 <span class="line"><span>├── 03_MVI 架构.md               # State/Intent/Event/单向数据流</span></span>
 <span class="line"><span>├── 04_VIPER 架构.md             # Viper 分层</span></span>
@@ -83,7 +83,7 @@ import{_ as n,o as s,c as e,ae as p}from"./chunks/framework.Czhw_PXq.js";const g
 <span class="line"><span>├── 03_深色模式适配.md         # Dark Theme</span></span>
 <span class="line"><span>├── 04_Toolbar.md              # ActionBar 替代方案</span></span>
 <span class="line"><span>└── 05_多屏幕适配.md           # 多设备适配</span></span></code></pre></div><h3 id="模块十二-性能优化-performance" tabindex="-1">模块十二：性能优化 (Performance) <a class="header-anchor" href="#模块十二-性能优化-performance" aria-label="Permalink to &quot;模块十二：性能优化 (Performance)&quot;">​</a></h3><p><strong>启动/内存/布局/网络/包体积优化</strong></p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>12_Performance/</span></span>
-<span class="line"><span>├── 01_启动优化.md              # 冷启动/异步初始化</span></span>
+<span class="line"><span>├── 01_Android 性能优化全攻略.md              # 冷启动/异步初始化</span></span>
 <span class="line"><span>├── 02_内存优化.md              # LeakCanary/内存泄漏检测</span></span>
 <span class="line"><span>├── 03_布局优化.md              # 减少层级/过度绘制</span></span>
 <span class="line"><span>├── 04_网络优化.md              # 连接复用/请求合并</span></span>

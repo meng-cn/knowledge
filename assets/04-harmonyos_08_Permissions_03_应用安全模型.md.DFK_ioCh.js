@@ -1,0 +1,73 @@
+import{_ as a,o as n,c as i,ae as p}from"./chunks/framework.Czhw_PXq.js";const c=JSON.parse('{"title":"应用安全模型","description":"","frontmatter":{},"headers":[],"relativePath":"04-harmonyos/08_Permissions/03_应用安全模型.md","filePath":"04-harmonyos/08_Permissions/03_应用安全模型.md"}'),l={name:"04-harmonyos/08_Permissions/03_应用安全模型.md"};function e(t,s,h,k,r,o){return n(),i("div",null,[...s[0]||(s[0]=[p(`<h1 id="应用安全模型" tabindex="-1">应用安全模型 <a class="header-anchor" href="#应用安全模型" aria-label="Permalink to &quot;应用安全模型&quot;">​</a></h1><blockquote><p>鸿蒙应用沙箱、签名验证、应用隔离机制。</p></blockquote><hr><h2 id="_1-应用沙箱" tabindex="-1">1. 应用沙箱 <a class="header-anchor" href="#_1-应用沙箱" aria-label="Permalink to &quot;1. 应用沙箱&quot;">​</a></h2><h3 id="_1-1-沙箱架构" tabindex="-1">1.1 沙箱架构 <a class="header-anchor" href="#_1-1-沙箱架构" aria-label="Permalink to &quot;1.1 沙箱架构&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>应用沙箱（Sandbox）</span></span>
+<span class="line"><span>┌─────────────────────────────────────┐</span></span>
+<span class="line"><span>│  应用 A                              │</span></span>
+<span class="line"><span>│  ┌─────────────┐                    │</span></span>
+<span class="line"><span>│  │ 私有数据     │                    │</span></span>
+<span class="line"><span>│  │ /data/storage/el2/base/com.app.A │</span></span>
+<span class="line"><span>│  │ - files/    │                    │</span></span>
+<span class="line"><span>│  │ - cache/    │                    │</span></span>
+<span class="line"><span>│  │ - rdb/      │                    │</span></span>
+<span class="line"><span>│  │ - preferences/                   │</span></span>
+<span class="line"><span>│  └─────────────┘                    │</span></span>
+<span class="line"><span>│  无法访问应用 B 的数据               │</span></span>
+<span class="line"><span>└─────────────────────────────────────┘</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>┌─────────────────────────────────────┐</span></span>
+<span class="line"><span>│  应用 B                              │</span></span>
+<span class="line"><span>│  ┌─────────────┐                    │</span></span>
+<span class="line"><span>│  │ 私有数据     │                    │</span></span>
+<span class="line"><span>│  │ /data/storage/el2/base/com.app.B │</span></span>
+<span class="line"><span>│  └─────────────┘                    │</span></span>
+<span class="line"><span>└─────────────────────────────────────┘</span></span></code></pre></div><h3 id="_1-2-沙箱特性" tabindex="-1">1.2 沙箱特性 <a class="header-anchor" href="#_1-2-沙箱特性" aria-label="Permalink to &quot;1.2 沙箱特性&quot;">​</a></h3><p>| 特性 | 说明 | |---|-|-| | <strong>数据隔离</strong> | 应用间数据不可见 | | <strong>权限隔离</strong> | 每个应用独立权限集 | | <strong>进程隔离</strong> | 应用运行在独立进程 | | <strong>文件隔离</strong> | 沙箱外文件需授权访问 |</p><hr><h2 id="_2-应用签名" tabindex="-1">2. 应用签名 <a class="header-anchor" href="#_2-应用签名" aria-label="Permalink to &quot;2. 应用签名&quot;">​</a></h2><h3 id="_2-1-签名验证流程" tabindex="-1">2.1 签名验证流程 <a class="header-anchor" href="#_2-1-签名验证流程" aria-label="Permalink to &quot;2.1 签名验证流程&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>应用开发</span></span>
+<span class="line"><span>    ↓</span></span>
+<span class="line"><span>生成密钥对（私钥 + 证书）</span></span>
+<span class="line"><span>    ↓</span></span>
+<span class="line"><span>使用私钥签名应用</span></span>
+<span class="line"><span>    ↓</span></span>
+<span class="line"><span>应用安装时验证签名</span></span>
+<span class="line"><span>    ↓</span></span>
+<span class="line"><span>验证通过 → 安装成功</span></span>
+<span class="line"><span>验证失败 → 安装拒绝</span></span></code></pre></div><h3 id="_2-2-签名配置" tabindex="-1">2.2 签名配置 <a class="header-anchor" href="#_2-2-签名配置" aria-label="Permalink to &quot;2.2 签名配置&quot;">​</a></h3><div class="language-json5 vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">json5</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// build-profile.json5</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">{</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">    &quot;app&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: {</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">        &quot;signingConfigs&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">            {</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                &quot;name&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;release&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                &quot;type&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;HarmonyOS&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                &quot;material&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: {</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                    &quot;certpath&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;/path/to/release.cer&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                    &quot;storePassword&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;password&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                    &quot;keyAlias&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;alias&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                    &quot;keyPassword&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;password&quot;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">                }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">            }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        ],</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">        &quot;products&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">            {</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                &quot;name&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;release&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">,</span></span>
+<span class="line"><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">                &quot;signingConfig&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;release&quot;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">            }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        ]</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div><h3 id="_2-3-签名权限" tabindex="-1">2.3 签名权限 <a class="header-anchor" href="#_2-3-签名权限" aria-label="Permalink to &quot;2.3 签名权限&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>签名权限（signature permission）：</span></span>
+<span class="line"><span>├─ 同签名应用自动授予</span></span>
+<span class="line"><span>├─ 用于应用间共享数据/能力</span></span>
+<span class="line"><span>└─ 防止恶意应用冒充</span></span></code></pre></div><hr><h2 id="_3-应用隔离" tabindex="-1">3. 应用隔离 <a class="header-anchor" href="#_3-应用隔离" aria-label="Permalink to &quot;3. 应用隔离&quot;">​</a></h2><h3 id="_3-1-进程隔离" tabindex="-1">3.1 进程隔离 <a class="header-anchor" href="#_3-1-进程隔离" aria-label="Permalink to &quot;3.1 进程隔离&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>每个应用独立进程：</span></span>
+<span class="line"><span>├─ 应用崩溃不影响其他应用</span></span>
+<span class="line"><span>├─ 内存隔离</span></span>
+<span class="line"><span>├─ CPU 资源隔离</span></span>
+<span class="line"><span>└─ 文件描述符隔离</span></span></code></pre></div><h3 id="_3-2-能力隔离" tabindex="-1">3.2 能力隔离 <a class="header-anchor" href="#_3-2-能力隔离" aria-label="Permalink to &quot;3.2 能力隔离&quot;">​</a></h3><div class="language-typescript vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">typescript</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// 应用只能访问自己声明的能力</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> { bundleManager } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">from</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &#39;@kit.ArkTS&#39;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// 获取自身信息</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">let</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> bundleInfo </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> await</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> bundleManager.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">getBundleInfoForSelf</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">({</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    flags: bundleManager.BundleFlag.</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">GET_BUNDLE_INFO_WITH_APPLICATION</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">})</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;应用名:&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, bundleInfo.name)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">console.</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">log</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&#39;TokenID:&#39;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, bundleInfo.appInfo.tokenId)</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// 无法直接访问其他应用的私有数据</span></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;">// 必须通过公开 API 或授权</span></span></code></pre></div><hr><h2 id="_4-安全启动" tabindex="-1">4. 安全启动 <a class="header-anchor" href="#_4-安全启动" aria-label="Permalink to &quot;4. 安全启动&quot;">​</a></h2><h3 id="_4-1-启动链验证" tabindex="-1">4.1 启动链验证 <a class="header-anchor" href="#_4-1-启动链验证" aria-label="Permalink to &quot;4.1 启动链验证&quot;">​</a></h3><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>BootROM → BootLoader → Kernel → System → Application</span></span>
+<span class="line"><span>    ↓          ↓           ↓          ↓          ↓</span></span>
+<span class="line"><span>签名验证   签名验证   签名验证   签名验证   签名验证</span></span></code></pre></div><hr><h2 id="_5-面试高频考点" tabindex="-1">5. 面试高频考点 <a class="header-anchor" href="#_5-面试高频考点" aria-label="Permalink to &quot;5. 面试高频考点&quot;">​</a></h2><h3 id="q1-鸿蒙应用沙箱的作用" tabindex="-1">Q1: 鸿蒙应用沙箱的作用？ <a class="header-anchor" href="#q1-鸿蒙应用沙箱的作用" aria-label="Permalink to &quot;Q1: 鸿蒙应用沙箱的作用？&quot;">​</a></h3><p><strong>回答</strong>：数据隔离、权限隔离、进程隔离。每个应用只能访问自己的沙箱数据，无法访问其他应用数据。</p><h3 id="q2-应用签名验证流程" tabindex="-1">Q2: 应用签名验证流程？ <a class="header-anchor" href="#q2-应用签名验证流程" aria-label="Permalink to &quot;Q2: 应用签名验证流程？&quot;">​</a></h3><p><strong>回答</strong>：开发时生成密钥对并签名 → 安装时系统验证签名 → 验证通过才允许安装。</p><hr><blockquote><p>🐱 <strong>小猫提示</strong>：应用安全记住 <strong>&quot;沙箱隔离、签名验证、进程隔离、能力隔离&quot;</strong>。</p></blockquote>`,34)])])}const E=a(l,[["render",e]]);export{c as __pageData,E as default};
