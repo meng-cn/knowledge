@@ -7,6 +7,10 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.44"
+    "mermaid": "^11.14.0",
+    "vitepress": "^1.0.0-rc.44",
+    "vitepress-mermaid-renderer": "^1.1.23",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vitepress-plugin-mermaid-pan-zoom": "^1.0.2"
   }
 }

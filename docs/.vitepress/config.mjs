@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import fs from 'fs'
 import path from 'path'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 /**
  * Recursively generates sidebar items from a directory
@@ -63,48 +64,51 @@ function getSidebarItems(dir, baseLink) {
   return items
 }
 
-export default defineConfig({
-  title: "我的知识库",
-  description: "VitePress 文档站",
+export default withMermaid(
+  defineConfig({
+    title: "我的知识库",
+    description: "VitePress 文档站",
 
-  head: [
-    [
-      'script',
-      {
-        async: 'true',
-        crossorigin: 'anonymous',
-        // 👇 把你自己的 AdSense 脚本贴这里！
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4901937160278502"
-      }
+    head: [
+      [
+        'script',
+        {
+          async: 'true',
+          crossorigin: 'anonymous',
+          // 👇 把你自己的 AdSense 脚本贴这里！
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4901937160278502"
+        }
+      ],
+      [
+        'meta',
+        {
+          name: 'google-adsense-account',
+          content: 'ca-pub-4901937160278502'
+        }
+      ]
     ],
-    [
-    'meta',
-    {
-      name: 'google-adsense-account',
-      content: 'ca-pub-4901937160278502'
+
+    // 👇 这一行是重点！自动适配本地 / 线上
+    base: process.env.GITHUB_ACTION ? '/' : '/',
+
+    markdown: {
+      html: false,  // 禁用 HTML 解析
+      mermaid: true
+    },
+
+    themeConfig: {
+      // Generate sidebar dynamically
+      sidebar: [
+        {
+          text: 'Documents',
+          items: getSidebarItems('', '/')
+        }
+      ],
+      nav: [
+        { text: '首页', link: '/' }
+      ],
+      outline: 'deep',
+      darkMode: true
     }
-  ]
-  ],
-
-  // 👇 这一行是重点！自动适配本地 / 线上
-  base: process.env.GITHUB_ACTION ? '/' : '/',
-
-  markdown: {
-    html: false,  // 禁用 HTML 解析
-  },
-
-  themeConfig: {
-    // Generate sidebar dynamically
-    sidebar: [
-      {
-        text: 'Documents',
-        items: getSidebarItems('', '/')
-      }
-    ],
-    nav: [
-      { text: '首页', link: '/' }
-    ],
-    outline: 'deep',
-    darkMode: true
-  }
-})
+  })
+)
