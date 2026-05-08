@@ -32,7 +32,7 @@
 
 | # | 文件 | 说明 |
 |---|------|------|
-| 7 | [ch07-agentic-rag.md](ch07-agentic-rag.md) | Agentic RAG 核心（ReAct · 工具使用 · 多代理 · HITL · 评估 · 代码） |
+| 7 | [ch07-agentic-rag.md](ch07-advanced-agentic-rag.md) | Agentic RAG 核心（ReAct · 工具使用 · 多代理 · HITL · 评估 · 代码） |
 
 ---
 

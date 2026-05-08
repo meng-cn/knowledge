@@ -948,7 +948,7 @@ triple_with_ref = [
 | 存储成本 | 高（全图谱 + 社区摘要） | 低（仅子图） |
 | 更新成本 | 高（全量重建） | 低（增量更新） |
 
-> LazyGraphRAG 详见 [lazygraphrag.md](lazygraphrag.md)。
+> LazyGraphRAG 详见 [lazygraphrag.md](ch06-advanced-lazygraphrag.md)。
 
 ---
 
@@ -977,4 +977,4 @@ triple_with_ref = [
 
 ---
 
-> **进阶进阶**：[LazyGraphRAG（按需图谱 RAG）](lazygraphrag.md)
+> **进阶进阶**：[LazyGraphRAG（按需图谱 RAG）](ch06-advanced-lazygraphrag.md)

@@ -284,4 +284,3 @@ Hybrid RAG（BM25 + 向量 + RRF）
 ---
 
 > **一句话总结**：混合检索是现在，GraphRAG 是进阶，Agentic RAG 是未来但要谨慎，评估体系贯穿始终。  
-> **下一章**：[第一章 · RAG 与 GraphRAG 概述](ch01-introduction.md)

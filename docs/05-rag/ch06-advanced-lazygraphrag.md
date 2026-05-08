@@ -1343,5 +1343,5 @@ def estimate_cost(doc_count: int, query_count: int = 100,
 
 ---
 
-> **进阶基础**：[GraphRAG 概览](graphrag.md)
-> **进阶进阶**：[生产部署](production.md)
+> **进阶基础**：[GraphRAG 概览](ch05-advanced-graphrag.md)
+> **进阶进阶**：[生产部署](ch11-rag-deployment.md)

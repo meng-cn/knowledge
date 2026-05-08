@@ -2513,4 +2513,4 @@ searcher.initiate_chat(
 ---
 
 > **基础篇参考**：[ch00-overview.md](ch00-overview.md) · [ch01-basic-rag-deep-dive.md](ch01-basic-rag-deep-dive.md) · [ch02-hybrid-rag-deep-dive.md](ch02-hybrid-rag-deep-dive.md)
-> **进阶篇参考**：[ch05-graphrag.md](ch05-graphrag.md) · [ch06-lazygraphrag.md](ch06-lazygraphrag.md)
+> **进阶篇参考**：[ch05-graphrag.md](ch05-advanced-graphrag.md) · [ch06-lazygraphrag.md](ch06-advanced-lazygraphrag.md)
