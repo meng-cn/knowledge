@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as o,ae as r}from"./chunks/framework.Czhw_PXq.js";const h=JSON.parse('{"title":"我的文档网站","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"};function s(i,e,d,_,c,l){return a(),o("div",null,[...e[0]||(e[0]=[r("",5)])])}const m=t(n,[["render",s]]);export{h as __pageData,m as default};
