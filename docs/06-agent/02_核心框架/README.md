@@ -2,7 +2,7 @@
 
 本模块系统学习 AI Agent 开发的八大主流框架：LangChain/LangGraph、LlamaIndex、OpenAI Agents SDK、DSPy、Pydantic AI、CrewAI、AutoGen、Phidata。
 
-**前置要求**：Agent 基础概念  
+**前置要求**：Agent 基础概念
 **难度**：⭐⭐⭐（必学）
 
 ---

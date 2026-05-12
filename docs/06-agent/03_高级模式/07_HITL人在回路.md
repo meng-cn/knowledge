@@ -5,40 +5,17 @@
 
 ---
 
-## 1. 概述
-
-**HITL（Human-in-the-Loop，人在回路）**让 Agent 在执行关键步骤时请求人工审批。
-
----
-
-## 2. 核心技术
-
-### 2.1 HITL 时机
+## 1. HITL 时机
 
 | 场景 | 原因 |
-|------|------|
+|--|- |
 | 发送重要邮件 | 防止误发 |
 | 执行删除操作 | 不可逆 |
 | 财务决策 | 合规要求 |
 | 医疗建议 | 安全 |
 
-### 2.2 实现方式
-
-```python
-from agents import Agent
-
-agent_with_approval = Agent(
-    name="AgentHITL",
-    instructions="执行任务，但关键操作前等待人工审批",
-    tools=[execution_tool],
-    handoff_handlers={
-        "need_approval": lambda result: ask_human_approval(result)
-    }
-)
-```
-
 ---
 
-## 3. 参考资料
+## 2. 参考资料
 
-- [AgentBench 评估基准](https://github.com/THUDM/AgentBench)
+- [ReAct、Plan-and-Execute、Reflection、Multi-Agent 工程范式](https://gitcode.csdn.net/69c1ee540a2f6a37c599e1e8.html)
