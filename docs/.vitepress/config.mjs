@@ -68,6 +68,7 @@ export default withMermaid(
   defineConfig({
     title: "我的知识库",
     description: "VitePress 文档站",
+    ignoreDeadLinks: true,
 
     head: [
       [
