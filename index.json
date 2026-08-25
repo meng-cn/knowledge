@@ -1,5 +1,5 @@
 {
-    "version": 1776802712,
+    "version": 1787627699,
     "data": [
         {
             "docs_category": "00-android",
@@ -695,6 +695,168 @@
                     ]
                 }
             ]
+        },
+        {
+            "docs_category": "05-rag",
+            "docs_chapters": []
+        },
+        {
+            "docs_category": "06-agent",
+            "docs_chapters": [
+                {
+                    "docs_chapter": "01_基础概念",
+                    "files": [
+                        "docs\\06-agent\\01_基础概念\\01_Agent定义与核心架构.md",
+                        "docs\\06-agent\\01_基础概念\\02_LLM与Agent的关系.md",
+                        "docs\\06-agent\\01_基础概念\\03_Function Calling详解.md",
+                        "docs\\06-agent\\01_基础概念\\04_MCP协议详解.md",
+                        "docs\\06-agent\\01_基础概念\\05_核心技术选型指南.md",
+                        "docs\\06-agent\\01_基础概念\\06_Agent的经济性分析.md",
+                        "docs\\06-agent\\01_基础概念\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "02_核心框架",
+                    "files": [
+                        "docs\\06-agent\\02_核心框架\\01_LangChain全解析.md",
+                        "docs\\06-agent\\02_核心框架\\02_LangGraph有向图编排.md",
+                        "docs\\06-agent\\02_核心框架\\03_LlamaIndex检索优先.md",
+                        "docs\\06-agent\\02_核心框架\\04_OpenAI Agents SDK.md",
+                        "docs\\06-agent\\02_核心框架\\05_DSPy程序化提示.md",
+                        "docs\\06-agent\\02_核心框架\\06_Pydantic AI.md",
+                        "docs\\06-agent\\02_核心框架\\07_其他框架速览.md",
+                        "docs\\06-agent\\02_核心框架\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "03_高级模式",
+                    "files": [
+                        "docs\\06-agent\\03_高级模式\\01_ReAct模式.md",
+                        "docs\\06-agent\\03_高级模式\\02_Plan_and_Execute架构.md",
+                        "docs\\06-agent\\03_高级模式\\03_树思考ToT GoT.md",
+                        "docs\\06-agent\\03_高级模式\\04_多Agent协作架构.md",
+                        "docs\\06-agent\\03_高级模式\\05_Memory记忆架构.md",
+                        "docs\\06-agent\\03_高级模式\\06_Agent编排模式.md",
+                        "docs\\06-agent\\03_高级模式\\07_HITL人在回路.md",
+                        "docs\\06-agent\\03_高级模式\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "04_工程实践",
+                    "files": [
+                        "docs\\06-agent\\04_工程实践\\01_Agent工程化架构.md",
+                        "docs\\06-agent\\04_工程实践\\02_成本优化策略.md",
+                        "docs\\06-agent\\04_工程实践\\03_确定性执行Plan→Commit架构.md",
+                        "docs\\06-agent\\04_工程实践\\04_Agent评测基准.md",
+                        "docs\\06-agent\\04_工程实践\\05_安全对齐与护栏.md",
+                        "docs\\06-agent\\04_工程实践\\06_监控与可观测性.md",
+                        "docs\\06-agent\\04_工程实践\\07_部署架构.md",
+                        "docs\\06-agent\\04_工程实践\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "05_前沿趋势",
+                    "files": [
+                        "docs\\06-agent\\05_前沿趋势\\01_LLM_as_Agent.md",
+                        "docs\\06-agent\\05_前沿趋势\\02_端到端 Agent 训练.md",
+                        "docs\\06-agent\\05_前沿趋势\\03_Agent操作系统.md",
+                        "docs\\06-agent\\05_前沿趋势\\04_自进化 Agent.md",
+                        "docs\\06-agent\\05_前沿趋势\\05_多模态 Agent.md",
+                        "docs\\06-agent\\05_前沿趋势\\06_垂直行业应用.md",
+                        "docs\\06-agent\\05_前沿趋势\\07_MCP协议在企业级落地.md",
+                        "docs\\06-agent\\05_前沿趋势\\08_Agent安全与评估最新进展.md",
+                        "docs\\06-agent\\05_前沿趋势\\README.md"
+                    ]
+                }
+            ]
+        },
+        {
+            "docs_category": "08-ros",
+            "docs_chapters": [
+                {
+                    "docs_chapter": "01_基础概念",
+                    "files": [
+                        "docs\\08-ros\\01_基础概念\\01_什么是ROS2.md",
+                        "docs\\08-ros\\01_基础概念\\02_ROS1与ROS2对比与迁移.md",
+                        "docs\\08-ros\\01_基础概念\\03_安装与环境配置.md",
+                        "docs\\08-ros\\01_基础概念\\04_工作空间与Colcon构建.md",
+                        "docs\\08-ros\\01_基础概念\\05_消息服务与类型系统.md",
+                        "docs\\08-ros\\01_基础概念\\06_ROS2生态与角色地图.md",
+                        "docs\\08-ros\\01_基础概念\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "02_核心模块",
+                    "files": [
+                        "docs\\08-ros\\02_核心模块\\01_节点与发布订阅.md",
+                        "docs\\08-ros\\02_核心模块\\02_服务与动作.md",
+                        "docs\\08-ros\\02_核心模块\\03_参数系统与配置管理.md",
+                        "docs\\08-ros\\02_核心模块\\04_TF2坐标变换.md",
+                        "docs\\08-ros\\02_核心模块\\05_QoS与通信机制.md",
+                        "docs\\08-ros\\02_核心模块\\06_ROS2_CLI与Launch系统.md",
+                        "docs\\08-ros\\02_核心模块\\07_ROSBag2与Rqt调试工具.md",
+                        "docs\\08-ros\\02_核心模块\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "03_高级话题",
+                    "files": [
+                        "docs\\08-ros\\03_高级话题\\01_ROS2架构分层详解.md",
+                        "docs\\08-ros\\03_高级话题\\02_线程模型与Executor深度解析.md",
+                        "docs\\08-ros\\03_高级话题\\03_实时性与任务调度.md",
+                        "docs\\08-ros\\03_高级话题\\04_组件化与进程内通信.md",
+                        "docs\\08-ros\\03_高级话题\\05_ROS2安全架构(SROS2).md",
+                        "docs\\08-ros\\03_高级话题\\06_RMW实现对比(FastDDS_vs_CycloneDDS).md",
+                        "docs\\08-ros\\03_高级话题\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "04_工程实践",
+                    "files": [
+                        "docs\\08-ros\\04_工程实践\\01_ROS2应用架构设计模式.md",
+                        "docs\\08-ros\\04_工程实践\\02_ROS2测试体系.md",
+                        "docs\\08-ros\\04_工程实践\\03_诊断监控与故障定位.md",
+                        "docs\\08-ros\\04_工程实践\\04_持续构建发布与部署.md",
+                        "docs\\08-ros\\04_工程实践\\05_导航与运动控制栈(Nav2_MoveIt2_ros2control).md",
+                        "docs\\08-ros\\04_工程实践\\06_仿真与硬件生态.md",
+                        "docs\\08-ros\\04_工程实践\\README.md"
+                    ]
+                },
+                {
+                    "docs_chapter": "05_前沿趋势",
+                    "files": [
+                        "docs\\08-ros\\05_前沿趋势\\01_microROS2与嵌入式.md",
+                        "docs\\08-ros\\05_前沿趋势\\02_ROS2与大模型融合.md",
+                        "docs\\08-ros\\05_前沿趋势\\03_ROS2安全标准与自动驾驶.md",
+                        "docs\\08-ros\\05_前沿趋势\\04_ROS2跨平台与Web节点.md",
+                        "docs\\08-ros\\05_前沿趋势\\05_ROS2产业生态与未来路线.md",
+                        "docs\\08-ros\\05_前沿趋势\\README.md"
+                    ]
+                }
+            ]
         }
-    ]
+    ],
+    "models": {
+        "qwen": {
+            "version": "1.0.0",
+            "file": "models/qwen3-4b-instruct-2507-q4_k_m.gguf"
+        },
+        "objectbox_index": {
+            "version": "1.0.0",
+            "dimensions": 512,
+            "total_chunks": 16592,
+            "file": "models/objectbox_import_data.json"
+        },
+        "faiss": {
+            "version": "1.0.1",
+            "file": "models/faiss_index.faiss",
+            "docs_file": "models/faiss_index_docs.json",
+            "metadata": "models/faiss_index_metadata.json"
+        },
+        "bge": {
+            "version": "1.0.0",
+            "file": "models/model_quantized.onnx",
+            "tokenizer": "models/bge_tokenizer.onnx"
+        }
+    }
 }
