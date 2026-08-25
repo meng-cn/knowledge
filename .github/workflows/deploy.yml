@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: npm run docs:build
+      - run: NODE_OPTIONS="--max-old-space-size=6144" npm run docs:build
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
